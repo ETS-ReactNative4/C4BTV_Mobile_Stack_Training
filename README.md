@@ -7,9 +7,9 @@ Introduction : What and Who (10 min)
    2. Who is Code for BTV (5 min)
 
 Lesson One : Getting Setup (30 min)
-   1. Windows Setup (15 min)
+   1. Windows Setup (15 min) -or-
    2. Mac Setup (15 min)  - or- 
-   3. Linux Setup (15 min)  -or-
+   3. Linux Setup (15 min)
    4. Installing Expo (5 min)
    5. Installing Expo Client (5 min)
    6. Installing GenyMotion (5 min)
