@@ -1,5 +1,5 @@
-# C4BTV_Mobile_Stack_Training
-Assets and code samples, and super-awesome instructions for Code for BTV's mobile stack training.
+# Code for BTV : Mobile Stack Training
+Assets, code samples, and super-awesome instructions for Code for BTV's mobile stack training.
 
 ## Table of Contents
 Introduction : What and Who (10 min)
