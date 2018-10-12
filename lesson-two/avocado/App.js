@@ -19,7 +19,7 @@ _eatAnAvocado(){
         <Image source={avocado} style={styles.avocado}/>
         <Text>I have eaten</Text>
         <Text style={{fontSize: 60}}>{this.state.avocadoCount}</Text>
-        <Text>Avocados</Text>
+        <Text style={{marginBottom: 20}}>Avocados</Text>
          <Button onPress={this._eatAnAvocado} title='I ate an avocado!'/>
       </View>
     );
