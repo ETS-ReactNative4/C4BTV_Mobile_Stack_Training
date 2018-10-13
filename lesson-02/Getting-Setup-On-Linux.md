@@ -7,7 +7,7 @@ The best way to install Node is with Node Version Manger (NVM).  NVM allows you 
 
 1. Download the NVM install script with this command :
 
-curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh
+`curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh`
 
 
 2. Install NVM by running this command
