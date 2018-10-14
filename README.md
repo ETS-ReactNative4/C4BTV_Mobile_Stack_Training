@@ -1,4 +1,6 @@
 # Code for BTV : Mobile Stack Training
+### Build mobile apps lickety-split with React Native, Expo, and Firebase.
+
 Assets, code samples, and super-awesome instructions for Code for BTV's mobile stack training.
 
 ## Table of Contents
