@@ -1,31 +1,21 @@
 # Getting Setup on Linux:
-These instructions were written for Ubuntu 18.x_____
-185
-
+These instructions were written for Ubuntu 18.x
 
 ## Install Node with NVM
 The best way to install Node is with Node Version Manger (NVM).  NVM allows you easily upgrade and switch between versions of Node.
 
-
 1. Download the NVM install script with this command :
 `curl -sL https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh -o install_nvm.sh`
-
 
 2. Install NVM by running this command
 `bash install_nvm.sh`
 
+It will install the software into a subdirectory of your home directory at ~/.nvm. It will also add the necessary lines to your ~/.profile file to use the file.
 
-It will install the software into a subdirectory of your home directory at ~/.nvm. It will also add the necessary li_____
-185
-nes to your ~/.profile file to use the file.
 To gain access to the nvm functionality, you'll need to either log out and log back in again or source the ~/.profile file so that your current session knows about the changes:
-source ~/.profile
-
+`source ~/.profile`
 
 3. You can now list all the versions of Node available for installation :
-_____
-185
-
 `nvm ls-remote`
 
 4. Install the latest version by typing, I usually pick the latest version, but last stable version is always safe should be listed as 'Latest: LTS'
@@ -35,15 +25,11 @@ _____
 5. You can switch to any version you have by typing
 `nvm use <version number>`
 
-
 To make a version your default, run this command:
 `nvm alias <version number> default`
 
-
 You can check the version of node you're running by typing :
 `node -v`
-_____
-185
 
 ## Install and Configure Git
 
@@ -76,8 +62,6 @@ We won't be using Android Studio but installing it gives us features we need to 
 
 1.  Install the 32-bit libraries needed to run Android Studio with this command :
 `sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386`
-_____
-185
 
 2.  Go to this page :  https://developer.android.com/studio/  and click the link to "Download Android Studio"
 
@@ -94,9 +78,7 @@ _____
 
 ## Install and Configure Genymotion
 
-Genymotion is the easiest way to get an Android emulator up and running.  With Expo, you can use your phone, but you_____
-185
-'re probably going to want to use an emulator.
+Genymotion is the easiest way to get an Android emulator up and running.  With Expo, you can use your phone, but you're probably going to want to use an emulator.
 
 1.  Genymotion requires VirtualBox, a virtual machine engine from Oracle.  Install it with this command:
 `sudo apt install virtualbox`
@@ -126,8 +108,6 @@ Genymotion is the easiest way to get an Android emulator up and running.  With E
 
 8. After your new virtual device is finished installing, configure the ADB (Android Debugging Bridge)  in Genymotion to use the same SDK library as Android Studio.  Click the "Settings" button on the main Genymotion screen and then click the "ADB" tab.
 ![Alt](assets/adb-settings.png "ADB settings")
-_____
-185
 
 Select the "Use custom Android SDK tools" and then browse the Android Sdk folder.  The path (if you installed android studio locally) will be '/home/<your username>/Android/Sdk'.  Choose this folder and click the "choose" button.
 ![Alt](assets/sdk-path.png "SDK Path")
@@ -144,8 +124,7 @@ Before you can use the Firebase tools you'll need a free account.  Go to the Fir
 1.  Now that you have a free Google Developers account install Firebase Tools :
 `npm install -g firebase-tools`
 
-## Install Expo_____
-185
+## Install Expo
 
 Before you can use Expo you need to sign up for a free account.  You'll need the account to publish your app to the Expo repository.
 
