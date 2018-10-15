@@ -4,21 +4,18 @@
 Assets, code samples, and super-awesome instructions for Code for BTV's mobile stack training.
 
 ## Table of Contents
-Introduction: What and Who (10 min)
-   1. What We'll Learn (5 min)
-   2. Who is Code for BTV (5 min)
+Introduction: What, Who and Why
+   1. [What Is It We are Learning Here?](lesson-00_What-Who-And-Why/01-Exactly-What-Is-It-We-Are-Learning-Here.md)
+   2. [Who is Code for BTV?](lesson-00_What-Who-And-Why/02-Who-Is-Code-For-BTV.md)
+   3. [Why Should We Practice Civic Hacking](lesson-00_What-Who-And-Why/3-Why-Should-We-Practice-Civic-Hacking.md)
 
-Lesson One: Getting Setup (30 min)
-   1. Windows Setup (10 min) -or-
-   2. Mac Setup (10 min)  - or-
-   3. Linux Setup (10 min)
-   4. Installing Expo (5 min)
-   5. Installing Expo Client (5 min)
-   6. Installing GenyMotion (5 min)
-   7. Installing A Few Final Things (5 min)
+Lesson One: Getting Setup
+   1. [Windows Setup (10 min)](lesson-01_Getting-Setup/01-Getting-Setup-On-Windows.md)
+   2. [Mac Setup](lesson-01_Getting-Setup/02-Getting-Setup-On-Mac.md)
+   3. [Linux Setup](lesson-01_Getting-Setup/03-Getting-Setup-On-Linux.md)
 
-Lesson Two: Hello World (30 min)
-   1. Creating a basic App with Expo (5 min)
+Lesson Two: Hello World, Expo Style
+   1. [Creating a Basic App With Expo](lesson-02_Hello_World-Expo-Style/01-Creating-A-Basic-App-With-Expo.md)
    2. Running on an Android Emulator (7 min)
    3. Running on an iOS Emulator (5 min)
    4. Running on Your Mobile Device (8 min)
@@ -36,7 +33,7 @@ Lesson Three: Introduction to Git and GitHub (30 min)
    9. Resolving Conflicts (3 min)
    10. GitHub GUI Tools (3 min)
 
-Lesson Four:  A Basic App (30 min)
+Lesson Four: A Basic App (30 min)
    1. View, Text and Button Components (8 min)
    2. Styling Components (8 min)
    3. React Props (6 min)
@@ -51,7 +48,7 @@ Lesson Six: Debugging (17 min)
    2. Setting Breakpoints (5 min)
    3. Debugging on the Emulator (5 min)
 
-Lesson Seven : Flex Box Layouts ( 11 min )
+Lesson Seven: Flex Box Layouts ( 11 min )
    1. What's Flex? (5 min)
    2. Flex Direction (2 min)
    3. Justify Content (2 min)
