@@ -21,7 +21,7 @@ const common = {
         paddingBottom: 8,
         borderBottomWidth: 1,
         borderBottomColor: '#CCC',
-        backgroundColor: '#EEE',
+        backgroundColor: colors.background,
         padding: 10,
         shadowColor: '#FFF',
         shadowOffset: {width: 0, height: 1},
@@ -37,7 +37,7 @@ const common = {
         shadowOpacity: 0.6,
         shadowRadius: 2,
         padding: 10,
-        backgroundColor: '#EEE'
+        backgroundColor: colors.background
     },
     infoBlockHeader: {
         color: '#444',
@@ -48,7 +48,7 @@ const common = {
         marginBottom: 0,
         paddingBottom: 5,
         marginTop: 10,
-        backgroundColor: '#EEE'
+        backgroundColor: colors.background
     },
     padForIOSKeyboard: {height: 80},
     padForIOSKeyboardBig: {height: 150},
@@ -58,7 +58,7 @@ const common = {
         marginBottom: 10,
         borderWidth: 1,
         borderColor: '#000',
-        backgroundColor: '#EEE'
+        backgroundColor: colors.background
     },
     profileName: {
         paddingLeft: 10,
@@ -71,7 +71,7 @@ const common = {
         borderBottomWidth: 1,
         borderBottomColor: '#CCC',
         height: 70,
-        backgroundColor: '#EEE',
+        backgroundColor: colors.background,
         alignItems: 'stretch',
         padding: 10,
         shadowColor: '#FFF',
@@ -117,13 +117,13 @@ const common = {
         borderWidth: 1,
         padding: 5,
         minHeight: 250,
-        backgroundColor: 'white',
+        backgroundColor: colors.background,
         justifyContent: 'flex-start'
     },
     textInput: {
         borderColor: '#000',
         borderWidth: 1,
-        backgroundColor: 'white',
+        backgroundColor: colors.background,
         height: 40,
         textAlign: 'left',
         padding: 5
@@ -175,7 +175,6 @@ const common = {
         textAlign: 'center',
         height: 30
     },
-
     link: {
         width: '100%',
         margin: 5,
@@ -183,7 +182,7 @@ const common = {
     },
     linkText: {
         fontSize: 16,
-        color: 'white',
+        color: 'black',
         textAlign: 'center'
     },
     searchResultsTitle: {
@@ -196,7 +195,7 @@ const common = {
         borderBottomWidth: 1,
         borderBottomColor: '#CCC',
         padding: 10,
-        backgroundColor: '#EEE',
+        backgroundColor: colors.background,
         shadowColor: '#FFF',
         shadowOffset: {width: 0, height: 1},
         shadowOpacity: 1,

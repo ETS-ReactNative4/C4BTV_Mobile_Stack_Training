@@ -1,5 +1,3 @@
-// @flow
-
 import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {connect} from 'react-redux';
@@ -16,13 +14,14 @@ import PropTypes from 'prop-types';
 
 const myStyles = {
     logo: {
-        justifyContent: 'center',
-        alignItems: 'center',
+         flex: 1,
+         justifyContent: 'center',
+        flexDirection: 'row',
         paddingBottom: 15
     },
     logoText: {
         fontSize: 32,
-        color: '#999',
+        color: '#000',
         shadowColor: '#666',
         shadowOffset: {width: 1, height: 0},
         shadowOpacity: 1,
@@ -80,8 +79,10 @@ static propTypes = {
                     <ScrollView style={styles.scroll}>
                         <View style={{paddingLeft: 20, paddingRight: 20}}>
                             <View style={styles.logo}>
-                                <Image source={logo} style={{height: 60, width: '100%'}}/>
-                                <Text style={styles.logoText}>Money on My Mind</Text>
+                                <Text style={styles.logoText}>The</Text>
+                                <Image 
+                                resizeMode='contain' source={logo} style={{height: 40, width: 30}}/>
+                                <Text style={styles.logoText}>App</Text>
                             </View>
                             <View style={{width: '100%'}}>
                                 <LoginForm onButtonPress={this.props.actions.loginWithEmailPassword}/>

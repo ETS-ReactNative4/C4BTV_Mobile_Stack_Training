@@ -4,7 +4,7 @@ import {createStore, applyMiddleware} from 'redux';
 import {Provider} from 'react-redux';
 import reducer from './reducers/';
 import thunk from 'redux-thunk';
-import Loading from './screens/loading';
+import Login from './screens/login';
 
 const store = createStore(reducer, applyMiddleware(thunk));
 
@@ -13,7 +13,7 @@ const store = createStore(reducer, applyMiddleware(thunk));
   render() {
       return (
           <Provider store={store}>
-              <Loading/>
+              <Login/>
           </Provider>
       );
   }
