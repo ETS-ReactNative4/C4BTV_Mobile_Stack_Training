@@ -170,6 +170,7 @@ Before you can use the Firebase tools you'll need a free account.
 Before you can use Expo you need to sign up for a free account. You'll need the account to publish your app to the Expo repository.
 
 1. Go to http://expo.io and click the "Create an account" button.
+    ![Alt](assets/mac/expo-website.png "Expo Website")
 
 2. While you should have an Android emulator, there's no substitute for debugging on a real phone. To do this you'll need to install the Expo Client app on your iOS or Android phone. Search for it in your app store and install it.
 
