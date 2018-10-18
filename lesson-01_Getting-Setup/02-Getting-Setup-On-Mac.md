@@ -116,7 +116,7 @@ With Expo, you can use your own phone to run and debug your app. Nonetheless hav
 7. Select the "Use custom Android SDK tools" and enter the path to the Andriod sdk folder. If you installed android studio locally, the path should be "/Users/<your username./Library/Android/sdk''. The Library folder may be hidden you might have to type the path into the box instead of using 'Browse'
 
 8. Now we need to add an emulator (virtual device). Download a virtual device by launching Genymotion and clicking the "Add" button.
-    ![Alt](assets/mac/genymotion-your-virtual-devices.png "Genymotion Virtual Devices")
+    ![Alt](assets/mac/genymotion-your-virtual-devices-screen.png "Genymotion Virtual Devices")
 
 9. Select a virtual device (Google Pixel is a good choice) and click the "Next" button. You'll have a chance to rename the device if you don't like the default.
 
@@ -141,6 +141,7 @@ Creating an Apple developer account
 6. Your Apple ID now works as a free developer account. You will not be able to submit apps to the App Store, or download iOS, OS X, watchOS, or tvOS developer betas. A $99/year paid developer account is still required to enjoy those privileges.
 
 ## Install XCode
+
 To run the iPhone simulator you'll have to have a Mac with XCode installed..
 
 1. Download XCode from the Mac App Store 
@@ -154,7 +155,6 @@ This will take several minutes as it is a large application.
 4: Login with the Apple ID that you just enabled with free developer privileges.
     ![Alt](assets/mac/add-account-xcode.png "Add Account to Xcode")
 
-
 ## Install Firebase Tools
 
 Before you can use the Firebase tools you'll need a free account. 
@@ -165,8 +165,6 @@ Before you can use the Firebase tools you'll need a free account.
     ```bash
     npm install -g firebase-tools
     ```
-
-
 ## Install Expo
 
 Before you can use Expo you need to sign up for a free account. You'll need the account to publish your app to the Expo repository.
@@ -179,6 +177,3 @@ Before you can use Expo you need to sign up for a free account. You'll need the 
     ```bash
     npm install expo-cli --global
     ```
-
-
-
