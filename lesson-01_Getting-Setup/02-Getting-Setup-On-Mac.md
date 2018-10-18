@@ -72,7 +72,7 @@ We won't be using Android Studio but installing it gives us features we need to 
 1. Go to this page: https://developer.android.com/studio  and click the link to "Download Android Studio,"  accept the terms and conditions, and download the installer.
     ![Alt](assets/mac/android-studio-download.png "Android Studio Download Site")
 
-2. Accept the TermLaunch the installer.
+2. Accept the Terms then launch the installer.
 
 3. Select whether you want to import previous Android Studio settings or not, then click "OK".
 
@@ -80,7 +80,7 @@ We won't be using Android Studio but installing it gives us features we need to 
 
 ## Install Virtual Box
 
-With Expo, you can use your own phone to run and debug your app. Nonetheless having an emulator to test different phones is extremely useful.
+With Expo, you can use your own phone to run and debug your app. Nonetheless having an emulator to test different phones is extremely useful. Genymotion and Virtual Box make configuring and running Android emulators quite easy.
 
 1. Genymotion requires VirtualBox, a virtual machine engine from Oracle. Install it by downloading it from the Virtual Box website: https://www.virtualbox.org/wiki/Downloads
     ![Alt](assets/mac/virtual-box-download.png "Virtual Box Site")
@@ -93,10 +93,10 @@ With Expo, you can use your own phone to run and debug your app. Nonetheless hav
     ![Alt](assets/mac/genymotion-create-account.png "Create Genymotion Account")
 
 2. When you're done creating an account, go to the main page https://www.genymotion.com/fun-zone/  and click "Download Genymotion Personal Edition"
-    ![Alt](assets/mac/genymotion-main-site.png "Genymotion)
+    ![Alt](assets/mac/genymotion-main-site.png "Genymotion")
     
-5. Download the Mac OSX version and install it.
-    ![Alt](assets/mac/genymotion-download-screen.png "Download Genymotion)
+3. Download the Mac OSX version and install it.
+    ![Alt](assets/mac/genymotion-download-screen.png "Download Genymotion")
     
     
 6. To be able to use the emulator with Expo you'll need to have include the path the Android Debugging Bridge (adb)  in your PATH variable. the platform-tools which includes adb was installed when you installed Android Studio. If you haven't installed Android Studio yet, go back and do that before preceeding. Otherwise execute the following commands in a terminal.
