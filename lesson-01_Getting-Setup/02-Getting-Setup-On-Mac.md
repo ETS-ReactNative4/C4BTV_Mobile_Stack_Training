@@ -99,28 +99,28 @@ With Expo, you can use your own phone to run and debug your app. Nonetheless hav
     ![Alt](assets/mac/genymotion-download-screen.png "Download Genymotion")
     
     
-6. To be able to use the emulator with Expo you'll need to have include the path the Android Debugging Bridge (adb)  in your PATH variable. the platform-tools which includes adb was installed when you installed Android Studio. If you haven't installed Android Studio yet, go back and do that before preceeding. Otherwise execute the following commands in a terminal.
+4. To be able to use the emulator with Expo you'll need to have include the path to the Android Debugging Bridge (adb)  in your PATH variable. The platform-tools which were installed when you installed Android Studio, include the adb. If you haven't installed Android Studio yet, go back and do that before preceeding. Otherwise execute the following commands in a terminal.
     ```bash
     echo 'export ANDROID_HOME=/Users/$USER/Library/Android/sdk' >> ~/.bash_profile
     echo 'export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> ~/.bash_profile
     ```
 
-7. Your PATH variable won't update until you restart your terminal app. Alternatively, you can "source" your bash file with this command:
+5. Your PATH variable won't update until you restart your terminal app. Alternatively, you can "source" your bash file with this command:
     ```bash
     source ~/.bash_profile
     ```
 
-8. Next configure Genymotion to use the same adb that added to your path. Click the "Settings" button to open the settings dialog select the "ADB" tab.
+6. Next configure Genymotion to use the same adb that added to your path. Click the "Settings" button to open the settings dialog select the "ADB" tab.
     ![Alt](assets/mac/genymotion-adb-tab.png "Genymotion ADB")
     
-9. select the "Use custom Android SDK tools" and enter the path to the Andriod sdk folder. If you installed android studio locally, the path should be "/Users/<your username./Library/Android/sdk''. The Library folder may be hidden you might have to type the path into the box instead of using 'Browse'
+7. Select the "Use custom Android SDK tools" and enter the path to the Andriod sdk folder. If you installed android studio locally, the path should be "/Users/<your username./Library/Android/sdk''. The Library folder may be hidden you might have to type the path into the box instead of using 'Browse'
 
-10. Now we need to add an emulator (virtual device). Download a virtual device by launching Genymotion and clicking the "Add" button.
+8. Now we need to add an emulator (virtual device). Download a virtual device by launching Genymotion and clicking the "Add" button.
     ![Alt](assets/mac/genymotion-your-virtual-devices.png "Genymotion Virtual Devices")
 
-11. Select a virtual device (Google Pixel is a good choice) and click the "Next" button. You'll have a chance to rename the device if you don't like the default.
+9. Select a virtual device (Google Pixel is a good choice) and click the "Next" button. You'll have a chance to rename the device if you don't like the default.
 
-12. Test your installation by choosing the virtual device you just installed and click the "Start" button. Your emulator should start.
+10. Test your installation by choosing the virtual device you just installed and click the "Start" button. Your emulator should start.
     ![Alt](assets/mac/emulator.png "Genymotion Emulator")
     
 ## Create an Apple Developer Account
