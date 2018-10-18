@@ -78,20 +78,28 @@ We won't be using Android Studio but installing it gives us features we need to 
 
 4. The Android Studio Setup Wizard guides you through the rest of the setup, which includes downloading Android SDK components that are required for development.
 
-## Install and Configure Genymotion
+## Install Virtual Box
+
 With Expo, you can use your own phone to run and debug your app. Nonetheless having an emulator to test different phones is extremely useful.
 
 1. Genymotion requires VirtualBox, a virtual machine engine from Oracle. Install it by downloading it from the Virtual Box website: https://www.virtualbox.org/wiki/Downloads
-
+    ![Alt](assets/mac/virtual-box-download.png "Virtual Box Site")
+    
 2. Choose the download for OS X hosts and install it.
 
-3. You'll need to download the "free for personal use" version of Genymotion, which requires a free account. Go to the Genymotion "Fun-Zone" login screen https://www.genymotion.com/account/login and choose "Create an ccccount"
+## Install and Configure Genymotion
 
-4. When you're done creating an account, go to the main page https://www.genymotion.com/fun-zone/  and click "Download Genymotion Personal Edition"
+1. Genymotion requires you to create a free account. Go to the Genymotion "Fun-Zone" login screen https://www.genymotion.com/account/login and choose "Create an account"
+    ![Alt](assets/mac/genymotion-create-account.png "Create Genymotion Account")
 
+2. When you're done creating an account, go to the main page https://www.genymotion.com/fun-zone/  and click "Download Genymotion Personal Edition"
+    ![Alt](assets/mac/genymotion-main-site.png "Genymotion)
+    
 5. Download the Mac OSX version and install it.
-
-6. To be able to use the emulator with Expo you'll need to have include the path the Android Debugging Bridge (adb)  in your PATH variable. the platform-tools which includes adb was installed when you installed Android Studio. If you haven't done that yet, go back and install it.
+    ![Alt](assets/mac/genymotion-download-screen.png "Download Genymotion)
+    
+    
+6. To be able to use the emulator with Expo you'll need to have include the path the Android Debugging Bridge (adb)  in your PATH variable. the platform-tools which includes adb was installed when you installed Android Studio. If you haven't installed Android Studio yet, go back and do that before preceeding. Otherwise execute the following commands in a terminal.
     ```bash
     echo 'export ANDROID_HOME=/Users/$USER/Library/Android/sdk' >> ~/.bash_profile
     echo 'export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> ~/.bash_profile
@@ -103,15 +111,18 @@ With Expo, you can use your own phone to run and debug your app. Nonetheless hav
     ```
 
 8. Next configure Genymotion to use the same adb that added to your path. Click the "Settings" button to open the settings dialog select the "ADB" tab.
-
+    ![Alt](assets/mac/genymotion-adb-tab.png "Genymotion ADB")
+    
 9. select the "Use custom Android SDK tools" and enter the path to the Andriod sdk folder. If you installed android studio locally, the path should be "/Users/<your username./Library/Android/sdk''. The Library folder may be hidden you might have to type the path into the box instead of using 'Browse'
 
 10. Now we need to add an emulator (virtual device). Download a virtual device by launching Genymotion and clicking the "Add" button.
+    ![Alt](assets/mac/genymotion-your-virtual-devices.png "Genymotion Virtual Devices")
 
 11. Select a virtual device (Google Pixel is a good choice) and click the "Next" button. You'll have a chance to rename the device if you don't like the default.
 
 12. Test your installation by choosing the virtual device you just installed and click the "Start" button. Your emulator should start.
-
+    ![Alt](assets/mac/emulator.png "Genymotion Emulator")
+    
 ## Create an Apple Developer Account
 
 Creating an Apple developer account
@@ -132,7 +143,8 @@ Creating an Apple developer account
 ## Install XCode
 To run the iPhone simulator you'll have to have a Mac with XCode installed..
 
-1. Download XCode from the Mac App Store https://itunes.apple.com/us/app/xcode/id497799835?mt=12&ign-mpt=uo%3D4.
+1. Download XCode from the Mac App Store 
+https://itunes.apple.com/us/app/xcode/id497799835?mt=12&ign-mpt=uo%3D4.
 This will take several minutes as it is a large application.
 
 2. Launch Xcode
@@ -140,8 +152,7 @@ This will take several minutes as it is a large application.
 3. Click Xcode → Preferences → Accounts and click the ‘+’ sign and choose Add Apple ID.
 
 4: Login with the Apple ID that you just enabled with free developer privileges.
-You can now use Xcode to sideload apps on your favorite platforms. This tutorial can also be used in concert with our Apple TV 4 jailbreak tutorial.
-This is a basic tutorial that will be referenced in future tutorials involving sideloading on the Apple TV, iPhone, and iPad. Stay tuned for additional discussion regarding sideloading apps.
+    ![Alt](assets/mac/add-account-xcode.png "Add Account to Xcode")
 
 
 ## Install Firebase Tools
