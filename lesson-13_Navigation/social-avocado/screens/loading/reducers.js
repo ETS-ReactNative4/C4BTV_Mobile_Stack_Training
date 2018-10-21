@@ -6,7 +6,7 @@ export function reducers(state = initialState.loading, action) {
         case actions.INIT_COMPLETED:
             return {
                 ...state,
-                initialized: true
+                isLoadingComplete: true
             };
         case actions.INITIAL_AUTH_CHECKED:
             return {

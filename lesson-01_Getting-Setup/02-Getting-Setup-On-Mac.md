@@ -152,7 +152,7 @@ This will take several minutes as it is a large application.
 
 3. Click Xcode → Preferences → Accounts and click the ‘+’ sign and choose Add Apple ID.
 
-4: Login with the Apple ID that you just enabled with free developer privileges.
+4. Login with the Apple ID that you just enabled with free developer privileges.
     ![Alt](assets/mac/add-account-xcode.png "Add Account to Xcode")
 
 ## Install Firebase Tools

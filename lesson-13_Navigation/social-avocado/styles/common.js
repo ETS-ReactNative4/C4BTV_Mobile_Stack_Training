@@ -3,7 +3,7 @@ import colors from '../constants/colors';
 const common = {
     container: {
         flex: 1,
-        justifyContent: 'flex-start'
+        justifyContent: 'flex-start',
     },
     fieldset: {
         borderWidth: 2,
@@ -50,96 +50,14 @@ const common = {
         marginTop: 10,
         backgroundColor: colors.background
     },
-    padForIOSKeyboard: {height: 80},
-    padForIOSKeyboardBig: {height: 150},
-    profileHeader: {
-        flexDirection: 'row',
-        justifyContent: 'flex-start',
-        marginBottom: 10,
-        borderWidth: 1,
-        borderColor: '#000',
-        backgroundColor: colors.background
-    },
-    profileName: {
-        paddingLeft: 10,
-        paddingTop: 12.5,
-        fontSize: 20
-    },
-    row: {
-        flexDirection: 'row',
-        justifyContent: 'flex-end',
-        borderBottomWidth: 1,
-        borderBottomColor: '#CCC',
-        height: 70,
-        backgroundColor: colors.background,
-        alignItems: 'stretch',
-        padding: 10,
-        shadowColor: '#FFF',
-        shadowOffset: {width: 0, height: 1},
-        shadowOpacity: 1,
-        shadowRadius: 0,
-        marginBottom: 1
-    },
-    scroll: {
-        marginBottom: 10,
-        paddingLeft: 3,
-        paddingRight: 3,
-        paddingTop: 10,
-        backgroundColor: colors.background,
-    },
-    searchHeader: {
-        backgroundColor: colors.background,
-        paddingTop: 10, paddingBottom: 9, paddingLeft: 12, paddingRight: 12,
-        borderBottomWidth: 1,
-        borderColor: 'black'
-    },
-    statusBar: {
-        height: 60,
-        width: '100%',
-        marginBottom: 10,
-        flex: 1,
-        flexDirection: 'row',
-        paddingLeft: 10,
-        paddingRight: 10,
-        paddingTop: 5,
-        paddingBottom: 5,
-        backgroundColor: 'rgba(255,255,255,0.6)'
-    },
-    suggestion: {
-        paddingTop: 10,
-        paddingBottom: 10,
-        paddingLeft: 5,
-        borderColor: '#ABABAB',
-        borderBottomWidth: 1
-    },
-    textArea: {
-        borderColor: '#333',
-        borderWidth: 1,
-        padding: 5,
-        minHeight: 250,
-        backgroundColor: colors.background,
-        justifyContent: 'flex-start'
-    },
-    textInput: {
-        borderColor: '#000',
-        borderWidth: 1,
-        backgroundColor: colors.background,
-        height: 40,
-        textAlign: 'left',
-        padding: 5
-    },
     button: {
         borderStyle: 'solid',
         borderWidth: 1,
         borderColor: colors.buttonColor,
-        backgroundColor: colors.buttonColor,
+        backgroundColor: colors.buttonBackgroundColor,
         padding: 10,
         marginTop: 10,
         marginBottom: 10,
-        shadowColor: '#000',
-        shadowOffset: {width: 0, height: 2},
-        shadowOpacity: 0.6,
-        shadowRadius: 2
     },
     buttonText: {
         color: 'white',
@@ -185,6 +103,49 @@ const common = {
         color: 'black',
         textAlign: 'center'
     },
+    padForIOSKeyboard: {height: 80},
+    padForIOSKeyboardBig: {height: 150},
+    profileHeader: {
+        flexDirection: 'row',
+        justifyContent: 'flex-start',
+        marginBottom: 10,
+        borderWidth: 1,
+        borderColor: '#000',
+        backgroundColor: colors.background
+    },
+    profileName: {
+        paddingLeft: 10,
+        paddingTop: 12.5,
+        fontSize: 20
+    },
+    row: {
+        flexDirection: 'row',
+        justifyContent: 'flex-end',
+        borderBottomWidth: 1,
+        borderBottomColor: '#CCC',
+        height: 70,
+        backgroundColor: colors.background,
+        alignItems: 'stretch',
+        padding: 10,
+        shadowColor: '#FFF',
+        shadowOffset: {width: 0, height: 1},
+        shadowOpacity: 1,
+        shadowRadius: 0,
+        marginBottom: 1
+    },
+    scroll: {
+        marginBottom: 10,
+        paddingLeft: 3,
+        paddingRight: 3,
+        paddingTop: 10,
+        backgroundColor: colors.background,
+    },
+    searchHeader: {
+        backgroundColor: colors.background,
+        paddingTop: 10, paddingBottom: 9, paddingLeft: 12, paddingRight: 12,
+        borderBottomWidth: 1,
+        borderColor: 'black'
+    },
     searchResultsTitle: {
         fontSize: 20,
         textAlign: 'center',
@@ -201,6 +162,41 @@ const common = {
         shadowOpacity: 1,
         shadowRadius: 0
     },
+    statusBar: {
+        height: 60,
+        width: '100%',
+        marginBottom: 10,
+        flex: 1,
+        flexDirection: 'row',
+        paddingLeft: 10,
+        paddingRight: 10,
+        paddingTop: 5,
+        paddingBottom: 5,
+        backgroundColor: 'rgba(255,255,255,0.6)'
+    },
+    suggestion: {
+        paddingTop: 10,
+        paddingBottom: 10,
+        paddingLeft: 5,
+        borderColor: '#ABABAB',
+        borderBottomWidth: 1
+    },
+    textArea: {
+        borderColor: '#333',
+        borderWidth: 1,
+        padding: 5,
+        minHeight: 250,
+        backgroundColor: colors.background,
+        justifyContent: 'flex-start'
+    },
+    textInput: {
+        borderColor: '#000',
+        borderWidth: 1,
+        backgroundColor: colors.background,
+        height: 40,
+        textAlign: 'left',
+        padding: 5
+    }
 
 };
 

@@ -14,13 +14,14 @@ import PropTypes from 'prop-types';
 
 const myStyles = {
     logo: {
-         flex: 1,
-         justifyContent: 'center',
+        flex: 1,
+        justifyContent: 'center',
         flexDirection: 'row',
         paddingBottom: 15
     },
     logoText: {
         fontSize: 32,
+        fontFamily: 'alegreya-black',
         color: '#000',
         shadowColor: '#666',
         shadowOffset: {width: 1, height: 0},
@@ -80,7 +81,7 @@ static propTypes = {
                         <View style={{paddingLeft: 20, paddingRight: 20}}>
                             <View style={styles.logo}>
                                 <Text style={styles.logoText}>The</Text>
-                                <Image 
+                                <Image
                                 resizeMode='contain' source={logo} style={{height: 40, width: 30}}/>
                                 <Text style={styles.logoText}>App</Text>
                             </View>

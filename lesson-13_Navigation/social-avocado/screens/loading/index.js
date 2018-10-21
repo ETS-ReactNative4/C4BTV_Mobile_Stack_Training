@@ -1,5 +1,3 @@
-// @flow;
-
 import React, {Component} from 'react';
 import {bindActionCreators} from 'redux';
 import {AppLoading, Asset, Font} from 'expo';
@@ -10,6 +8,7 @@ import {connect} from 'react-redux';
 import LoginScreen from '../login/login-screen';
 import PropTypes from 'prop-types';
 import MainTabNavigator from '../../navigation/MainTabNavigator'
+
 const styles = StyleSheet.create({
     container: {
         flex: 1,
@@ -24,13 +23,13 @@ const styles = StyleSheet.create({
 
 class LoadingScreen extends Component {
 
-    static propTypes =   {
-            initialized: PropTypes.bool,
-            actions: PropTypes.object,
-            user: PropTypes.object,
-            userIsLoggedIn: PropTypes.bool
-        };
-  
+    static propTypes = {
+        initialized: PropTypes.bool,
+        actions: PropTypes.object,
+        user: PropTypes.object,
+        userIsLoggedIn: PropTypes.bool
+    };
+
 
     constructor(props) {
         super(props);
@@ -38,19 +37,21 @@ class LoadingScreen extends Component {
         this._handleLoadingError = this._handleLoadingError.bind(this);
     }
 
-    _loadResourcesAsync = async () => Promise.all([
-        this.props.actions.initialize(),
-        Asset.loadAsync([
+    _loadResourcesAsync = async () => {
+        await Asset.loadAsync([
             require('../../assets/images/avocado.png')
-        ]),
-        Font.loadAsync({
+        ]);
+        await Font.loadAsync({
             // This is the font that we are using for our tab bar
             ...Ionicons.font,
+            'alegreya-black': require('../../assets/fonts/Alegreya-Black.ttf'),
             // We include SpaceMono because we use it in HomeScreen.js. Feel free
             // to remove this if you are not using it in your app
             'space-mono': require('../../assets/fonts/SpaceMono-Regular.ttf')
-        })
-    ]);
+
+        });
+        await this.props.actions.initialize();
+    };
 
     _handleLoadingError = error => {
         // In this case, you might want to report the error to your error
@@ -60,12 +61,14 @@ class LoadingScreen extends Component {
     };
 
     _handleFinishLoading = () => {
-       // this.props.actions.loadingCompleted();
+        this.props.actions.loadingCompleted();
     };
 
     render() {
+        const {isUserloggedIn, isLoadingComplete} = this.props;
+        debugger
         switch (true) {
-            case (!this.props.initialized):
+            case (!this.props.isLoadingComplete):
                 return (
                     <AppLoading
                         startAsync={this._loadResourcesAsync}
@@ -73,7 +76,7 @@ class LoadingScreen extends Component {
                         onFinish={this._handleFinishLoading}
                     />
                 );
-              case (!this.props.userIsLoggedIn) :
+            case (!this.props.isUserLoggedIn) :
                 return (
                     <LoginScreen/>
                 );
@@ -92,7 +95,8 @@ class LoadingScreen extends Component {
 function mapStateToProps(state) {
     return {
         initialized: state.loading.initialized,
-        userIsLoggedIn: state.login.userIsLoggedIn,
+        isUserLoggedIn: state.login.userIsLoggedIn,
+        isLoadingComplete: state.loading.isLoadingComplete,
         user: state.login.user || {}
     };
 }
