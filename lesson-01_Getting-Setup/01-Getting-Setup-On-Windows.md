@@ -7,6 +7,7 @@ Install Node
 1. Download the Node installer here : https://nodejs.org/en/
 
 2. Launch the installer.
+    ![Alt](assets/windows/node-installer.png "Node Installer")
 
 
 
@@ -14,6 +15,7 @@ Install Node
 
 6. Verify that Node  is installed by opening a terminal and typing `node --version`  you should see version number for Git.
 
+    ![Alt](assets/windows/node-version.png "Node Version")
 
 
 Install and Configure Git
@@ -22,54 +24,55 @@ Install and Configure Git
 
 2. Launch the installer.
 
+    ![Alt](assets/windows/git-installer.png "Git Installer")
+
 
 
 3. Click through the installer accepting all the default settings.
 
-4. Verify that Node  is installed by opening a terminal and typing `git --version`  you should see:
-"git version 2.14.0.windows.1"
+4. Verify that Node  is installed by opening a terminal and typing `git --version`  you should see something like:
 
+     ````git version 2.14.0.windows.1````
 
 
 5. Set your name and email in Git using the following commands in the terminal.
 
-git config --global user.name "YOUR NAME"
-git config --global user.email your.email@somecompany.com
-
+    ```git config --global user.name "YOUR NAME"```
+    ```git config --global user.email your.email@somecompany.com```
 
 
 
 Install Python 2.7.15
   
-In the Command Prompt window, type the following and press Enter.
-python
+1. In the Command Prompt window, type the following and press Enter.
 
+    `python`
 
-If Python is installed and in your path, then this command will run python.exe and show you the version number.
+    If Python is installed and in your path, then this command will run python.exe and show you the version number.
 
-Python 2.7.4 (r264:75708, Oct 10 2009, 07:36:50) [MSC v.1500 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license" for further information.
+    `Python 2.7.4 (r264:75708, Oct 10 2009, 07:36:50) [MSC v.1500 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for further information.`
 
+    Otherwise, you will see:
 
-Otherwise, you will see:
-'python' is not recognized as an internal or external command, operable program or batch file.
+    `'python' is not recognized as an internal or external command, operable program or batch file.`
 
-
-In this case, you need to download and install Python 2.7  and then add it to your path.
+    If you don't have python 2.7, you need to download, install, and then add it to your path.
  
-Download and install Python 2.7.15 for Windows
-Go to https://www.python.org/downloads/release/python-2715/
-Find and download the Windows installer file that matches your system.
-Open the file to start the installation wizard.
-Follow the instructions and make a note of where Python is installed on your system.
+2. Download and install Python 2.7.15 for Windows
+    
+    Go to https://www.python.org/downloads/release/python-2715
+    
+    Find and download the Windows installer file that matches your system.
+   
+    Open the file to start the installation wizard.
+    Follow the instructions and make a note of where Python is installed on your system.
  
-Add Python to path
-In the Windows menu, search for “advanced system settings” and select View advanced system settings.
-In the window that appears, click Environment Variables… near the bottom right.
-Go to https://www.python.org/downloads/release/python-2715/
+3. Add Python to path
+    In the Windows menu, search for “advanced system settings” and select View advanced system settings.
+    In the window that appears, click Environment Variables… near the bottom right.
+     
 
-Find and download the Windows installer file that matches your system.
-
+ 
 Open the file to start the installation wizard.
 
 Follow the instructions and make a note of where Python is installed on your system.In the next window, find and select the user variable named Path and click Edit… to change its value. The value for this variable is a semi-colon-delimited list of file locations.

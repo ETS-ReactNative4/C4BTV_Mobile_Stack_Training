@@ -14,7 +14,8 @@ const common = {
     frame: {
         backgroundColor: colors.background,
         height: '100%',
-        width: '100%'
+        width: '100%',
+        marginTop: 22
     },
     block: {paddingTop: 10, paddingBottom: 10, borderBottomWidth: 1, borderColor: 'rgba(0,0,0,0.5)', width: '100%'},
     infoBlock: {

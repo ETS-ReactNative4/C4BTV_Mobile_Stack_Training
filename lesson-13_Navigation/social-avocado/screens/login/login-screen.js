@@ -76,7 +76,6 @@ static propTypes = {
                 style={styles.frame}
                 behavior={Platform.OS === 'ios' ? 'padding' : null}
             >
-                <View style={styles.container}>
                     <ScrollView style={styles.scroll}>
                         <View style={{paddingLeft: 20, paddingRight: 20}}>
                             <View style={styles.logo}>
@@ -95,7 +94,6 @@ static propTypes = {
 
                             </View>
                         </View>
-                        <View style={styles.padForIOSKeyboard}/>
                     </ScrollView>
                 </View>
             </KeyboardAvoidingView>
