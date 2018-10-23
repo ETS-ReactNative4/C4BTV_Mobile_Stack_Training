@@ -1,14 +1,13 @@
 # Getting Setup on Windows
 
 Getting Setup on Windows
-These instructions are for Windows 10 - 64 bit.   
+These instructions are for Windows 10 - 64 bit.
 Install Node
 
 1. Download the Node installer here : https://nodejs.org/en/
 
 2. Launch the installer.
     ![Alt](assets/windows/node-installer.png "Node Installer")
-
 
 
 3. Click through the installer accepting all the default settings.
@@ -43,7 +42,7 @@ Install and Configure Git
 
 
 Install Python 2.7.15
-  
+
 1. In the Command Prompt window, type the following and press Enter.
 
     `python`
@@ -57,22 +56,22 @@ Install Python 2.7.15
     `'python' is not recognized as an internal or external command, operable program or batch file.`
 
     If you don't have python 2.7, you need to download, install, and then add it to your path.
- 
+
 2. Download and install Python 2.7.15 for Windows
-    
+
     Go to https://www.python.org/downloads/release/python-2715
-    
+
     Find and download the Windows installer file that matches your system.
-   
+
     Open the file to start the installation wizard.
     Follow the instructions and make a note of where Python is installed on your system.
- 
+
 3. Add Python to path
     In the Windows menu, search for “advanced system settings” and select View advanced system settings.
     In the window that appears, click Environment Variables… near the bottom right.
-     
 
- 
+
+
 Open the file to start the installation wizard.
 
 Follow the instructions and make a note of where Python is installed on your system.In the next window, find and select the user variable named Path and click Edit… to change its value. The value for this variable is a semi-colon-delimited list of file locations.
@@ -80,12 +79,12 @@ Scroll to the end of the value, add a semicolon, and then add the location of py
 Click OK to save this change.
 If you do not have a user variable named Path, click the New… button.
 Add a variable named Path and make its value the location of python.exe.
- 
+
 Finding python.exe
 If you do not know where Python was installed, search for python.exe in the Windows menu.
 Right-click the file name in the results, select Properties, and find Location.
 Copy the location and add it to your path variable.
- 
+
 Confirm addition to path
 Open a new command prompt and re-run the original command:
 python
@@ -96,19 +95,19 @@ to confirm that Python 2.7.15 is installed and added to your path.
 
 Install Android Studio
 
-1	
+1
 
 
 
-Install and Configure Genymotion 
+Install and Configure Genymotion
 Genymotion is the easiest way to get an Android emulator up and running.  With Expo, you can use your phone, but you're probably going to want to use a simulator.
 
-1.  Go to the Genymotion "Fun-Zone" and create an account.  You'll need ti to download the "free for personal use" version of Genymotion : 
+1.  Go to the Genymotion "Fun-Zone" and create an account.  You'll need ti to download the "free for personal use" version of Genymotion :
 
 https://www.genymotion.com/fun-zone/
 
 2.  Once you have your account, go back to the website and download the "with VirtualBox" version. If you install the "without VirtualBox" version you'll need to install VirtualBox separately.
- 
+
 
 3. Run the installer.
 
@@ -118,13 +117,13 @@ https://www.genymotion.com/fun-zone/
 Install Firebase Tools
 Before you can use the Firebase tools you'll need a free account.  Go to the Firebase website, https://firebase.google.com, and click the "Sign In" button.  You'll be given the options of signing in or creating a new account.
 
- 
+
 
 
 1.  Now that you have a free Google Developers account install Firebase Tools :
 
 npm install -g firebase-tools
- 
+
 
 Install Expo
 
