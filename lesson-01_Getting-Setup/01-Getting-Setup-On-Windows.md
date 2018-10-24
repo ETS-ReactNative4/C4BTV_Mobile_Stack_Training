@@ -1,12 +1,12 @@
 # Getting Setup on Windows
+ These instructions are for Windows 10 - 64 bit.
 
-Getting Setup on Windows
-These instructions are for Windows 10 - 64 bit.
-Install Node
+## Install Node
 
 1. Download the Node installer here : https://nodejs.org/en/
 
 2. Launch the installer.
+
     ![Alt](assets/windows/node-installer.png "Node Installer")
 
 
@@ -17,7 +17,7 @@ Install Node
     ![Alt](assets/windows/node-version.png "Node Version")
 
 
-Install and Configure Git
+## Install and Configure Git
 
 1. Download the Git installer here : https://git-scm.com/download/win
 
@@ -25,31 +25,32 @@ Install and Configure Git
 
     ![Alt](assets/windows/git-installer.png "Git Installer")
 
-
-
 3. Click through the installer accepting all the default settings.
 
-4. Verify that Node  is installed by opening a terminal and typing `git --version`  you should see something like:
-
-     ````git version 2.14.0.windows.1````
-
+4. Verify that Node  is installed by opening a terminal and typing
+    ```cmd
+    git --version
+    ```
+    You should see something like `git version 2.14.0.windows.1`
 
 5. Set your name and email in Git using the following commands in the terminal.
 
-    ```git config --global user.name "YOUR NAME"```
-    ```git config --global user.email your.email@somecompany.com```
+    ```cmd
+    git config --global user.name "YOUR NAME"
+    git config --global user.email your.email@somecompany.com
+    ```
 
-
-
-Install Python 2.7.15
+## Install Python 2.7.15
 
 1. In the Command Prompt window, type the following and press Enter.
 
-    `python`
+    ```cmd
+    python
+    ```
 
     If Python is installed and in your path, then this command will run python.exe and show you the version number.
 
-    `Python 2.7.4 (r264:75708, Oct 10 2009, 07:36:50) [MSC v.1500 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for further information.`
+    ` Python 2.7.4 (r264:75708, Oct 10 2009, 07:36:50) [MSC v.1500 64 bit (AMD64)] on win32 Type "help", "copyright", "credits" or "license" for further information.`
 
     Otherwise, you will see:
 
@@ -57,49 +58,54 @@ Install Python 2.7.15
 
     If you don't have python 2.7, you need to download, install, and then add it to your path.
 
-2. Download and install Python 2.7.15 for Windows
+2. Start the process of downloading  and installing Python 2.7.15 for Windows by  going to this website:  https://www.python.org/downloads/release/python-2715
 
-    Go to https://www.python.org/downloads/release/python-2715
+3. Find and download the Windows installer file that matches your system.
 
-    Find and download the Windows installer file that matches your system.
+4. Open the file to start the installation wizard.
 
-    Open the file to start the installation wizard.
-    Follow the instructions and make a note of where Python is installed on your system.
-
-3. Add Python to path
-    In the Windows menu, search for “advanced system settings” and select View advanced system settings.
-    In the window that appears, click Environment Variables… near the bottom right.
+    ![Alt](assets/windows/install-python.png "Python installer screen 1")
 
 
+5. Click through the first screen to second and make a note of where Python is installed on your system.
 
-Open the file to start the installation wizard.
+    ![Alt](assets/windows/python-install-path.png "Python installer screen 2")
 
-Follow the instructions and make a note of where Python is installed on your system.In the next window, find and select the user variable named Path and click Edit… to change its value. The value for this variable is a semi-colon-delimited list of file locations.
-Scroll to the end of the value, add a semicolon, and then add the location of python.exe. (If you do not know where your python.exe is, you can search for it.)
-Click OK to save this change.
-If you do not have a user variable named Path, click the New… button.
-Add a variable named Path and make its value the location of python.exe.
+6. Continue through the wizard accepting the defaults.
 
-Finding python.exe
-If you do not know where Python was installed, search for python.exe in the Windows menu.
-Right-click the file name in the results, select Properties, and find Location.
-Copy the location and add it to your path variable.
+7. We now need to add Python to your PATH environment variable so you can use it in the command line. In the Windows menu, search for and then select “advanced system settings."
 
-Confirm addition to path
-Open a new command prompt and re-run the original command:
-python
+8. In the window that appears, click Environment Variables… near the bottom right.
 
+    ![Alt](assets/windows/environmental-variables.png "Environmental Variables")
 
-to confirm that Python 2.7.15 is installed and added to your path.
+10. In the next window, find and select the user variable named Path and click Edit… to change its value. If you do not have a user variable named Path, click the New… button, then add it.
 
+   ![Alt](assets/windows/environmental-variables-path.png "Environmental Variables Path")
 
-Install Android Studio
+11. Select a new line and add the path you noted when you installed Python.  My path is "C:/Python27". Click OK to save this change. Click OK twice more to exit out of all the windows.
 
-1
+   ![Alt](assets/windows/python-add-path.png "Python Path")
+
+12. Confirm that you've added Python to your Path variable. Open a new command prompt and re-run the original command: `python`
 
 
+## Install Android Studio
+We won't be using Android Studio but installing it gives us features we need to debug our app.
 
-Install and Configure Genymotion
+1. Go to this page: https://developer.android.com/studio  and click the link to "Download Android Studio,"  accept the terms and conditions, and download the installer.
+
+    ![Alt](assets/windows/android-studio-download.png "Android Studio Download Site")
+
+2. Accept the Terms then launch the installer.
+
+3. Select whether you want to import previous Android Studio settings or not, then click "OK".
+
+4. The Android Studio Setup Wizard guides you through the rest of the setup, which includes downloading Android SDK components that are required for development.
+
+
+## Install and Configure Genymotion
+
 Genymotion is the easiest way to get an Android emulator up and running.  With Expo, you can use your phone, but you're probably going to want to use a simulator.
 
 1.  Go to the Genymotion "Fun-Zone" and create an account.  You'll need ti to download the "free for personal use" version of Genymotion :
@@ -108,36 +114,40 @@ https://www.genymotion.com/fun-zone/
 
 2.  Once you have your account, go back to the website and download the "with VirtualBox" version. If you install the "without VirtualBox" version you'll need to install VirtualBox separately.
 
+    ![Alt](assets/windows/download-genymotion.png "Genymotion Download Site")
 
 3. Run the installer.
 
+4. Now we need to add an emulator (virtual device). Download a virtual device by launching Genymotion and clicking the "Add" button.
 
+    ![Alt](assets/mac/genymotion-your-virtual-devices-screen.png "Genymotion Virtual Devices")
 
+5. Select a virtual device (Google Pixel is a good choice) and click the "Next" button. You'll have a chance to rename the device if you don't like the default.
 
-Install Firebase Tools
-Before you can use the Firebase tools you'll need a free account.  Go to the Firebase website, https://firebase.google.com, and click the "Sign In" button.  You'll be given the options of signing in or creating a new account.
+6. Test your installation by choosing the virtual device you just installed and click the "Start" button. Your emulator should start.
 
+    ![Alt](assets/mac/emulator.png "Genymotion Emulator")
 
+## Install Firebase Tools
 
+Before you can use the Firebase tools you'll need a free account.
 
-1.  Now that you have a free Google Developers account install Firebase Tools :
+1. Go to the Firebase website, https://firebase.google.com, and click the "Sign In" button. You'll be given the options of signing in or creating a new account.
 
-npm install -g firebase-tools
+2. Now that you have a free Google Developers account install Firebase Tools :
+    ```bash
+    npm install -g firebase-tools
+    ```
+## Install Expo
 
+Before you can use Expo you need to sign up for a free account. You'll need the account to publish your app to the Expo repository.
 
-Install Expo
+1. Go to http://expo.io and click the "Create an account" button.
+    ![Alt](assets/mac/expo-website.png "Expo Website")
 
-Before you can use Expo you need to sign up for a free account.  You'll need the account to publish your app to the Expo repository.
+2. While you should have an Android emulator, there's no substitute for debugging on a real phone. To do this you'll need to install the Expo Client app on your iOS or Android phone. Search for it in your app store and install it.
 
-Go to http://expo.io and click the "Create an account" button.
-
-
-
-1.  While you should have an Android emulator, there's no substitute for debugging on a real phone.  To do this you'll need to install the Expo Client app on your iOS or Android phone.  Search for it in your app store and install it.
-
-2.  Now that you have an account and your phone is all set, install the expo development tools on your computer.
-
-npm install expo-cli --global
-
-
-
+3. Now that you have an account and your phone is all set, install the expo development tools on your computer.
+    ```bash
+    npm install expo-cli --global
+    ```
