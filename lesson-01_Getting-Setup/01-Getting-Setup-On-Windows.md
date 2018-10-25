@@ -79,15 +79,15 @@
 
     ![Alt](assets/windows/environmental-variables.png "Environmental Variables")
 
-10. In the next window, find and select the user variable named Path and click Edit… to change its value. If you do not have a user variable named Path, click the New… button, then add it.
+9. In the next window, find and select the user variable named Path and click Edit… to change its value. If you do not have a user variable named Path, click the New… button, then add it.
 
    ![Alt](assets/windows/environmental-variables-path.png "Environmental Variables Path")
 
-11. Select a new line and add the path you noted when you installed Python.  My path is "C:/Python27". Click OK to save this change. Click OK twice more to exit out of all the windows.
+10. Select a new line and add the path you noted when you installed Python.  My path is "C:/Python27". Click OK to save this change. Click OK twice more to exit out of all the windows.
+   
+    ![Alt](assets/windows/python-add-path.png "Python Path")
 
-   ![Alt](assets/windows/python-add-path.png "Python Path")
-
-12. Confirm that you've added Python to your Path variable. Open a new command prompt and re-run the original command: `python`
+11. Confirm that you've added Python to your Path variable. Open a new command prompt and re-run the original command: `python`
 
 
 ## Install Android Studio
