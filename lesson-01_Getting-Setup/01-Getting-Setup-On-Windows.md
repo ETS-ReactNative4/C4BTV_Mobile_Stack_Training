@@ -65,8 +65,7 @@
 4. Open the file to start the installation wizard.
 
     ![Alt](assets/windows/install-python.png "Python installer screen 1")
-
-
+    
 5. Click through the first screen to second and make a note of where Python is installed on your system.
 
     ![Alt](assets/windows/python-install-path.png "Python installer screen 2")
@@ -127,7 +126,23 @@ https://www.genymotion.com/fun-zone/
 6. Test your installation by choosing the virtual device you just installed and click the "Start" button. Your emulator should start.
 
     ![Alt](assets/mac/emulator.png "Genymotion Emulator")
+    
+7. If you see the following window, It means you have Hyper-V activated.  Genymotion is incompantable with Hyper-V so you'll need to turn it off.
 
+    ![Alt](assets/windows/geny-6.PNG "error")
+    
+8. To deactivate Hyper-V open your control panel and select "Programs"
+
+    ![Alt](assets/windows/hyper-v-1.PNG "hyper-v")
+    
+9. Under Programs and Features, select "Turn Windows features on of off"
+
+    ![Alt](assets/windows/hyper-v-2.PNG "hyper-v")
+        
+10. Remove the checkbox from the Hyper-V option. Restart your computer and try running an emulator again.
+
+    ![Alt](assets/windows/hyper-v-3.PNG "hyper-v ")
+            
 ## Install Firebase Tools
 
 Before you can use the Firebase tools you'll need a free account.
@@ -138,6 +153,7 @@ Before you can use the Firebase tools you'll need a free account.
     ```bash
     npm install -g firebase-tools
     ```
+    
 ## Install Expo
 
 Before you can use Expo you need to sign up for a free account. You'll need the account to publish your app to the Expo repository.
