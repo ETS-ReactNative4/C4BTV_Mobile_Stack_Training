@@ -65,7 +65,7 @@
 4. Open the file to start the installation wizard.
 
     ![Alt](assets/windows/install-python.png "Python installer screen 1")
-    
+
 5. Click through the first screen to second and make a note of where Python is installed on your system.
 
     ![Alt](assets/windows/python-install-path.png "Python installer screen 2")
@@ -83,7 +83,7 @@
    ![Alt](assets/windows/environmental-variables-path.png "Environmental Variables Path")
 
 10. Select a new line and add the path you noted when you installed Python.  My path is "C:/Python27". Click OK to save this change. Click OK twice more to exit out of all the windows.
-   
+
     ![Alt](assets/windows/python-add-path.png "Python Path")
 
 11. Confirm that you've added Python to your Path variable. Open a new command prompt and re-run the original command: `python`
@@ -126,23 +126,23 @@ https://www.genymotion.com/fun-zone/
 6. Test your installation by choosing the virtual device you just installed and click the "Start" button. Your emulator should start.
 
     ![Alt](assets/mac/emulator.png "Genymotion Emulator")
-    
+
 7. If you see the following window, It means you have Hyper-V activated.  Genymotion is incompantable with Hyper-V so you'll need to turn it off.
 
     ![Alt](assets/windows/geny-6.PNG "error")
-    
+
 8. To deactivate Hyper-V open your control panel and select "Programs"
 
     ![Alt](assets/windows/hyper-v-1.PNG "hyper-v")
-    
+
 9. Under Programs and Features, select "Turn Windows features on of off"
 
     ![Alt](assets/windows/hyper-v-2.PNG "hyper-v")
-        
+
 10. Remove the checkbox from the Hyper-V option. Restart your computer and try running an emulator again.
 
     ![Alt](assets/windows/hyper-v-3.PNG "hyper-v ")
-            
+
 ## Install Firebase Tools
 
 Before you can use the Firebase tools you'll need a free account.
@@ -153,12 +153,13 @@ Before you can use the Firebase tools you'll need a free account.
     ```bash
     npm install -g firebase-tools
     ```
-    
+
 ## Install Expo
 
 Before you can use Expo you need to sign up for a free account. You'll need the account to publish your app to the Expo repository.
 
 1. Go to http://expo.io and click the "Create an account" button.
+
     ![Alt](assets/mac/expo-website.png "Expo Website")
 
 2. While you should have an Android emulator, there's no substitute for debugging on a real phone. To do this you'll need to install the Expo Client app on your iOS or Android phone. Search for it in your app store and install it.
@@ -167,3 +168,18 @@ Before you can use Expo you need to sign up for a free account. You'll need the 
     ```bash
     npm install expo-cli --global
     ```
+
+## Install Visual Studio Code
+
+You can you use any old text editor to write your code, but we reccomend you use an IDE (Integrated Development Environment) that supports JavaScript.  It will make your life a lot easier.  Because it's free and works on Mac, Linux and Windows, and is pretty darn good we will be using Visual Studio Code for this course.
+
+1. Download Visual Studio code by going to this website : https://code.visualstudio.com/download  Choose the .deb version and download it.
+
+    ![Alt](assets/linux/vbsc-website.png "Visual Studio Code Website")
+
+2. When the download is done, double-click the .deb file to open the file in the Ubuntu Software application. Then click the "install" button to start the installation process.
+
+
+    ![Alt](assets/linux/install-vsc.png "Visual Studio Code Install")
+
+
