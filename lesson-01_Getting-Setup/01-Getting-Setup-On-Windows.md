@@ -131,15 +131,15 @@ https://www.genymotion.com/fun-zone/
 
     ![Alt](assets/windows/geny-6.PNG "error")
     
-8. To deactivate Hyper-V open your control panel and select.
+8. To deactivate Hyper-V open your control panel and select "Programs"
 
     ![Alt](assets/windows/hyper-v-1.PNG "hyper-v")
     
-9. To deactivate Hyper-V open your control panel and select.
+9. Under Programs and Features, select "Turn Windows features on of off"
 
     ![Alt](assets/windows/hyper-v-2.PNG "hyper-v")
         
-10. To deactiveate Hyper-V open your control panel and select.
+10. Remove the checkbox from the Hyper-V option. Restart your computer and try running an emulator again.
 
     ![Alt](assets/windows/hyper-v-3.PNG "hyper-v ")
             
