@@ -31,6 +31,24 @@ We can run our app by following the instructions on the screen.  Execute these t
 
 ![alt_text](assets/Capture4.PNG "image_tooltip")
 
+You should see a UPC symbol in your terminal.  In addition, the Expo dev tools should open in a Chrome window.
+
+![alt_text](assets/Capture5.PNG "image_tooltip")
+
+
+Lets see what our app looks like.  Open Genymotion and start a virtual device.  After it finishes booting up, type 'a' in the terminal window to launch your app in the emulator.
+
+ ![alt_text](assets/Capture8.PNG "image_tooltip")
+
+The first time you launch your app in an emulator Expo will install the Expo client.  When this is finished you will be prompted to allow Expo to display over other apps.  CLick the toggle on and then click the back button on the right side to return to your app.
+
+ ![alt_text](assets/Capture9.PNG "image_tooltip")
+
+ ![alt_text](assets/Capture-10.PNG "image_tooltip")
+
+ ![alt_text](assets/Capture-11.PNG "image_tooltip")
+
+ ![alt_text](assets/Capture-12.PNG "image_tooltip")
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
