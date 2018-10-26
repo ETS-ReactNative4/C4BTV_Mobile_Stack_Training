@@ -197,12 +197,10 @@ Before you can use Expo you need to sign up for a free account. You'll need the 
 
 ## Install Visual Studio Code
 
-You can you use any old text editor to write your code, but we reccomend you use an IDE (Integrated Development Environment) that supports JavaScript.  It will make your life a lot easier.  Because it's free and works on Mac, Linux and Windows, and is pretty darn good we will be using Visual Studio Code for this course.
+You can you use any old text editor to write your code, but we recommend  you use an IDE (Integrated Development Environment) that supports JavaScript.  It will make your life a lot easier.  Because it's free and works on Mac, Linux and Windows, and is pretty darn good we will be using Visual Studio Code for this course.
 
 1. Download Visual Studio code by going to this website : https://code.visualstudio.com/download  Choose the .deb version and download it.
 
     ![Alt](assets/mac/vsc-website.png "Visual Studio Code Website")
 
-2. When the download is done, double-click the .deb file to open the file in the Ubuntu Software application. Then click the "install" button to start the installation process.
-
-    ![Alt](assets/mac/install-vsc.png "Visual Studio Code Install")
+2. When the download is done, double-click the .zip file to extract the .app file.  Then drag the .app file into your Applications folder
