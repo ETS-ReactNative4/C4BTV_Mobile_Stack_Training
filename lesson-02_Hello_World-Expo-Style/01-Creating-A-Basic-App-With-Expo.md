@@ -1,3 +1,5 @@
+# Hello World Expo Style
+
 Now that you have your development environment setup, we can start building our first mobile application, "Hello World"
 
 Start by opening up a terminal. Then create or navigate to a folder where you want to keep your projects.
@@ -26,6 +28,9 @@ We can run our app by following the instructions on the screen.  Execute these t
 
     cd hello-world
     expo start
+
+![alt_text](assets/Capture4.PNG "image_tooltip")
+
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
