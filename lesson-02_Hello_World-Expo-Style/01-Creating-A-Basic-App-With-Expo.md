@@ -4,7 +4,7 @@ Now that you have your development environment setup, we can start building our 
 
 Start by opening a terminal. Then create a folder where you want to keep your projects. I'm calling my project directory "my_awesome_projects"
 
-![alt_text](assets/Capture.PNG "image_tooltip")
+![alt_text](assets/Capture.PNG "PowerShell: CD to project folder")
 
 Navigate into your projects folder and execute this command
 
