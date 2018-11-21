@@ -30,12 +30,12 @@ After everything is done installing, Expo will give you instructions on how to s
 ![alt_text](assets/Capture4.PNG "image_tooltip")
 
 
-You should see a UPC symbol in your terminal.  In addition, the Expo dev tools should open in a Chrome window.
+You should see a UPC symbol in your terminal.  In addition, the Expo Chrome dev tools should open in a Chrome window. You can toggle the Expo Chrome dev tools by pressing 'd' in the Expo terminal.  You don't need the Chrome dev tools, but it provided a more graphical interface to debugging your app.  we'll include instructions for using both.
 
 ![alt_text](assets/Capture5.PNG "image_tooltip")
 
 
-Lets see what our app looks like.  Open Genymotion and start a virtual device.  After it finishes booting up, type 'a' in the terminal window to launch your app in the emulator.
+Lets see what our app looks like.  Open Genymotion and start a virtual device.  After your virtual device finishes booting up, type 'a' in the Expo terminal window to launch your app in the emulator.  Alternatively, you can click the "Run on Android device/emulator" button in the Chrome Dev Tools windows
 
  ![alt_text](assets/Capture8.PNG "image_tooltip")
 
