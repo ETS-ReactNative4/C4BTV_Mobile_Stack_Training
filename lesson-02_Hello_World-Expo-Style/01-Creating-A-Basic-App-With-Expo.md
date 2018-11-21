@@ -39,7 +39,7 @@ Lets see what our app looks like.  Open Genymotion and start a virtual device.  
 
  ![alt_text](assets/Capture8.PNG "image_tooltip")
 
-The first time you launch your app in an emulator Expo will install the Expo client.  When this is finished you will be prompted to allow Expo to display over other apps.  CLick the toggle on and then click the back button on the right side to return to your app.
+The first time you launch your app in an emulator Expo will install the Expo client.  When this is finished you will be prompted to 'Allow display over other apps.'  Set the toggle to 'on' then click the back button on the right side to return to your app.
 
  ![alt_text](assets/Capture9.PNG "image_tooltip")
 
