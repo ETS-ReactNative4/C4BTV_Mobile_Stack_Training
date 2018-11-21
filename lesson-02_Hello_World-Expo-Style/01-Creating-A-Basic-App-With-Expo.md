@@ -53,6 +53,31 @@ Now that we have a working app, let's change it to display "Hello World."  Launc
 
 ![alt_text](assets/Capture-11.PNG "Visual Studio Code: App.js changes")
 
+Change the line `<Text>Open up App.js to start working on your app!</Text>` to `<Text>Hello WOrld!</Text>` Your App.js file should now look like this:
+
+```
+    import React from 'react';
+    import { StyleSheet, Text, View } from 'react-native';
+
+    export default class App extends React.Component {
+     render() {
+       return (
+         <View style={styles.container}>
+           <Text>Hello World</Text>
+         </View>
+       );
+     }
+    }
+
+    const styles = StyleSheet.create({
+     container: {
+       flex: 1,
+       backgroundColor: '#fff',
+       alignItems: 'center',
+       justifyContent: 'center',
+     },
+    });
+```
 
 ![alt_text](assets/Capture-12.PNG "Genymotion: Final Hello World app")
 
