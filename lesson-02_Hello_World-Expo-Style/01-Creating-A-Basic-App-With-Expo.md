@@ -17,7 +17,7 @@ You should be prompted to "Choose a template.
 ![alt_text](assets/Capture2.PNG "image_tooltip")
 
 
-"Hello World" is a super simple app, so choose the default template, 'blank.'   Hit 'enter' to accept.  Expo will now extract the files you need and setup your app.  
+"Hello World" is a super simple app, so we won't need tab-navigation. Hit 'enter' to accept the default template, 'blank.'  Expo will now extract the files you need and setup your app.  
 
 ![alt_text](assets/Capture3.PNG "image_tooltip")
 
