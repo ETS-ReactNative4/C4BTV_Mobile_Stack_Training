@@ -37,7 +37,7 @@ You should see a UPC symbol in your terminal.  In addition, the Expo Chrome dev 
 
 Lets see what our app looks like.  Open Genymotion and start a virtual device.  After your virtual device finishes booting up, type 'a' in the Expo terminal window to launch your app in the emulator.  Alternatively, you can click the "Run on Android device/emulator" button in the Chrome Dev Tools windows
 
-The first time you launch your app in an emulator Expo will install the Expo client.  When this is finished you will be prompted to 'Allow display over other apps.'  Set the toggle to 'on' then click the back button ![alt_text](assets/back-button.png "Genymotion : back button")  on the right side to return to your app. 
+The first time you launch your app in an emulator Expo will install the Expo client.  When this is finished you will be prompted to 'Allow display over other apps.'  Set the toggle to 'on' then return to your app by clicking the back button ![alt_text](assets/back-button.png "Genymotion : back button").
 
  ![alt_text](assets/Capture8.PNG "Genymotion : Allow display over other apps toggle")
 
