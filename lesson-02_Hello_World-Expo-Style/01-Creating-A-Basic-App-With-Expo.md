@@ -14,12 +14,12 @@ expo init hello-world
 
 You should be prompted to "Choose a template.
 
-![alt_text](assets/Capture2.PNG "image_tooltip")
+![alt_text](assets/Capture2.PNG "PowerShell: expo init command")
 
 
 "Hello World" is a super simple app, so we won't need tab-navigation. Hit 'enter' to accept the default template, 'blank.'  Expo will now extract the files you need and setup your app.  
 
-![alt_text](assets/Capture3.PNG "image_tooltip")
+![alt_text](assets/Capture3.PNG "PowerShell: choose template")
 
 
 After everything is done installing, Expo will give you instructions on how to start your app.  Type these two commands:
@@ -27,12 +27,12 @@ After everything is done installing, Expo will give you instructions on how to s
     cd hello-world
     expo start
 
-![alt_text](assets/Capture4.PNG "image_tooltip")
+![alt_text](assets/Capture4.PNG "PowerShell : start app")
 
 
 You should see a UPC symbol in your terminal.  In addition, the Expo Chrome dev tools should open in a Chrome window. You can toggle the Expo Chrome dev tools by pressing 'd' in the Expo terminal.  You don't need the Chrome dev tools, but it provided a more graphical interface to debugging your app.  we'll include instructions for using both.
 
-![alt_text](assets/Capture5.PNG "image_tooltip")
+![alt_text](assets/Capture5.PNG "Expo Dev Tools in Chrome")
 
 
 Lets see what our app looks like.  Open Genymotion and start a virtual device.  After your virtual device finishes booting up, type 'a' in the Expo terminal window to launch your app in the emulator.  Alternatively, you can click the "Run on Android device/emulator" button in the Chrome Dev Tools windows
