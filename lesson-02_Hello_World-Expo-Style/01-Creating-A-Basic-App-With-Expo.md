@@ -32,25 +32,25 @@ After everything is done installing, Expo will give you instructions on how to s
 
 You should see a UPC symbol in your terminal.  In addition, the Expo Chrome dev tools should open in a Chrome window. You can toggle the Expo Chrome dev tools by pressing 'd' in the Expo terminal.  You don't need the Chrome dev tools, but it provided a more graphical interface to debugging your app.  we'll include instructions for using both.
 
-![alt_text](assets/Capture5.PNG "Expo Dev Tools in Chrome")
+![alt_text](assets/Capture5.PNG "Chrome: Expo Dev Tools")
 
 
 Lets see what our app looks like.  Open Genymotion and start a virtual device.  After your virtual device finishes booting up, type 'a' in the Expo terminal window to launch your app in the emulator.  Alternatively, you can click the "Run on Android device/emulator" button in the Chrome Dev Tools windows
 
- ![alt_text](assets/Capture8.PNG "image_tooltip")
+ ![alt_text](assets/Capture8.PNG "Genymotion : Allow display over other apps toggle")
 
 The first time you launch your app in an emulator Expo will install the Expo client.  When this is finished you will be prompted to 'Allow display over other apps.'  Set the toggle to 'on' then click the back button on the right side to return to your app.
 
- ![alt_text](assets/Capture9.PNG "image_tooltip")
+ ![alt_text](assets/Capture9.PNG "Genymotion: splash screen")
 
 
- ![alt_text](assets/Capture-10.PNG "image_tooltip")
+ ![alt_text](assets/Capture-10.PNG "Genymotion: Default App Screen")
 
 
-![alt_text](assets/Capture-11.PNG "image_tooltip")
+![alt_text](assets/Capture-11.PNG "Visual Studio Code: App.js changes")
 
 
-![alt_text](assets/Capture-12.PNG "image_tooltip")
+![alt_text](assets/Capture-12.PNG "Genymotion: Final Hello World app")
 
 
 import React from 'react';
