@@ -49,6 +49,7 @@ When you app is ready, you should see the new default view.
 
  ![alt_text](assets/Capture-10.PNG "Genymotion: Default App Screen")
 
+Now that we have a working app, let's change it to display "Hello World."  Launch Visual Studio Code and open your project folder.  Click File => Open Folder.  Then select your project folder.   In the Explorer panel on the left, Expand "HELLO-WORLD" and then select the App.js file.
 
 ![alt_text](assets/Capture-11.PNG "Visual Studio Code: App.js changes")
 
