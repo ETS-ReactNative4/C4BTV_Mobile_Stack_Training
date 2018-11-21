@@ -41,10 +41,11 @@ The first time you launch your app in an emulator Expo will install the Expo cli
 
  ![alt_text](assets/Capture8.PNG "Genymotion : Allow display over other apps toggle")
 
- 
+ You should now see your new app's splash screen as your app builds and downloads.
 
  ![alt_text](assets/Capture9.PNG "Genymotion: splash screen")
 
+When you app is ready, you should see the new default view.
 
  ![alt_text](assets/Capture-10.PNG "Genymotion: Default App Screen")
 
