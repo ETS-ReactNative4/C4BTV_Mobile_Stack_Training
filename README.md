@@ -21,7 +21,7 @@ Lesson Two: Hello World, Expo Style
    4. [Running on Your Mobile Device](lesson-02_Hello_World-Expo-Style/04-Running-on-Your-Mobile-Device.md)
    5. [Publishing to Expo](lesson-02_Hello_World-Expo-Style/05-Publishing-To-Expo.md)
 
-Lesson Three: Introduction to Git and GitHub (30 min)
+Lesson Three: Git-and-GitHub-Fundamentals (30 min)
    1. Cloning a Repository (3 min)
    2. Creating a New Repository (2 min)
    3. Initializing Your New Repository (5 min)
