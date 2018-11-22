@@ -23,7 +23,7 @@ Lesson Two: Hello World, Expo Style
 
 Lesson Three: Git-and-GitHub-Fundamentals (30 min)
    1. [Cloning a Repository](lesson-03_Git-and-GitHub-Fundamentals/01-Clone-a-Repository.md)
-   2. [Creating a New Repository](lesson-03_Git-and-GitHub-Fundamentals/02-Creating-a-New-Repositoryy.md)
+   2. [Creating a New Repository](lesson-03_Git-and-GitHub-Fundamentals/02-Creating-a-New-Repository.md)
    3. [Branching](lesson-03_Git-and-GitHub-Fundamentals/03-Branching.md)
    4. [Committing](lesson-03_Git-and-GitHub-Fundamentals/04-Committing.md)
    5. [Pulling](lesson-03_Git-and-GitHub-Fundamentals/05-Pulling.md)
