@@ -10,7 +10,7 @@ Introduction: What, Who and Why
    3. [Why Should We Practice Civic Hacking](lesson-00_What-Who-And-Why/3-Why-Should-We-Practice-Civic-Hacking.md)
 
 Lesson One: Getting Setup
-   1. [Windows Setup (10 min)](lesson-01_Getting-Setup/01-Getting-Setup-On-Windows.md)
+   1. [Windows Setup](lesson-01_Getting-Setup/01-Getting-Setup-On-Windows.md)
    2. [Mac Setup](lesson-01_Getting-Setup/02-Getting-Setup-On-Mac.md)
    3. [Linux Setup](lesson-01_Getting-Setup/03-Getting-Setup-On-Linux.md)
 
@@ -22,16 +22,15 @@ Lesson Two: Hello World, Expo Style
    5. [Publishing to Expo](lesson-02_Hello_World-Expo-Style/05-Publishing-To-Expo.md)
 
 Lesson Three: Git-and-GitHub-Fundamentals (30 min)
-   1. Cloning a Repository (3 min)
-   2. Creating a New Repository (2 min)
-   3. Initializing Your New Repository (5 min)
-   4. Branching (5 min)
-   5. Committing (2 min)
-   6. Pulling (3 min)
-   7. Creating a Pull Request (2 min)
-   8. Merging Pull Requests (2 min)
-   9. Resolving Conflicts (3 min)
-   10. GitHub GUI Tools (3 min)
+   1. [Cloning a Repository](lesson-03_Git-and-GitHub-Fundamentals/01-Clone-a-Repository.md)
+   2. [Creating a New Repository](lesson-03_Git-and-GitHub-Fundamentals/02-Creating-a-New-Repositoryy.md)
+   3. [Branching](lesson-03_Git-and-GitHub-Fundamentals/03-Branching.md)
+   4. [Committing](lesson-03_Git-and-GitHub-Fundamentals/04-Committing.md)
+   5. [Pulling](lesson-03_Git-and-GitHub-Fundamentals/05-Pulling.md)
+   6. [Creating a Pull Request](lesson-03_Git-and-GitHub-Fundamentals/06-Creating-a-Pull-Request.md)
+   7. [Merging Pull Requests](lesson-03_Git-and-GitHub-Fundamentals/07-Merging-Pull-Requests.md)
+   8. [Resolving Conflicts](lesson-03_Git-and-GitHub-Fundamentals/08-Resolving-Conflicts.md)
+   9. [GitHub Desktop](lesson-03_Git-and-GitHub-Fundamentals/09-GitHub-Desktop.md)
 
 Lesson Four: A Basic App (30 min)
    1. View, Text and Button Components (8 min)
