@@ -5,9 +5,9 @@ Assets, code samples, and super-awesome instructions for Code for BTV's mobile s
 
 ## Table of Contents
 Introduction: What, Who and Why
-   1. [What Are We Learning, Exactly?](lesson-00_What-Who-And-Why/01-What-Are-We-Learning-Exactly.md)
-   2. [Who Is Code for BTV?](lesson-00_What-Who-And-Why/02-Who-Is-Code-For-BTV.md)
-   3. [What's So Awesome About Civic Hacking](lesson-00_What-Who-And-Why/3-Why-Should-We-Practice-Civic-Hacking.md)
+   1. [What Are We Learning, Exactly?](lesson-00_Introduction-What-Who-And-Why/01-What-Are-We-Learning-Exactly.md)
+   2. [Who Is Code for BTV?](lesson-00_Introduction-What-Who-And-Why/02-Who-Is-Code-For-BTV.md)
+   3. [What's So Awesome About Civic Hacking](lesson-00_Introduction-What-Who-And-Why/3-Why-Should-We-Practice-Civic-Hacking.md)
 
 Lesson One: Getting Setup
    1. [Windows Setup](lesson-01_Getting-Setup/01-Getting-Setup-On-Windows.md)
@@ -35,8 +35,8 @@ Lesson Three: Git-and-GitHub-Fundamentals (30 min)
 Lesson Four: A Basic App (30 min)
    1. [View, Text and Button Components](lesson-04_A-Basic-App/01_View-Text-and-Button-Components.md)
    2. [Styling Components](lesson-04_A-Basic-App/02_Styling-Components.md)
-   3. [React Props](lesson-04_A-Basic-App/04_React-Props.md)
-   4. [React State](lesson-04_A-Basic-App/05_React-State.md)
+   3. [React Props](lesson-04_A-Basic-App/03_React-Props.md)
+   4. [React State](lesson-04_A-Basic-App/04_React-State.md)
 
 Lesson Five: Building your App (10 min)
    1. [Building Android](lesson-05_Building-Your-App/01_Building-Android.md)
@@ -49,9 +49,9 @@ Lesson Six: Debugging (17 min)
 
 Lesson Seven: Flex Box Layouts ( 11 min )
    1. [What's Flex?](lesson-07_Flex-Box-Layouts/01_Whats-Flex.md)
-   2. [Flex Direction](lesson-07_Flex-Box-Layouts/Flex-Direction.md)
-   3. [Justify Content](lesson-07_Flex-Box-Layouts/Justify-Content.md)
-   4. [Align Items](lesson-07_Flex-Box-Layouts/Align-Items.md)
+   2. [Flex Direction](lesson-07_Flex-Box-Layouts/02_Flex-Direction.md)
+   3. [Justify Content](lesson-07_Flex-Box-Layouts/03_Justify-Content.md)
+   4. [Align Items](lesson-07_Flex-Box-Layouts/04_Align-Items.md)
 
 Lesson Eight: Touchables (10 min)
    1. [Buttons](lesson-08_Touchables/01_Buttons.md)
@@ -103,7 +103,7 @@ Lesson Fifteen: Firebase Security (20 min)
    2. [Checking Conditions](lesson-15_Firebase-Security/02_.md)
 
 Lesson Sixteen: Maps (30 min)
-    1. [A Basic Map](lesson-16_Maps/01_A-Basic-Map.md)
-    2. [Markers](lesson-16_Maps/02_Markers.md)
-    3. [Geolocation](lesson-16_Maps/03_Geolocation.md)
+   1. [A Basic Map](lesson-16_Maps/01_A-Basic-Map.md)
+   2. [Markers](lesson-16_Maps/02_Markers.md)
+   3. [Geolocation](lesson-16_Maps/03_Geolocation.md)
     
