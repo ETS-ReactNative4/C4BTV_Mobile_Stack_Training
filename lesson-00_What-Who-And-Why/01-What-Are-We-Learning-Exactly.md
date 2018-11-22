@@ -1,4 +1,4 @@
-# Exactly What are We Learning Here?
+# What are We Learning, Exactly?
 
 
 The short answer:  the tech stack used by Code for BTV to build no-fuss mobile apps fast.
