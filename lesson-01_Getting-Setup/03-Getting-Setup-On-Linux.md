@@ -178,6 +178,13 @@ Before you can use Expo you need to sign up for a free account. You'll need the 
     npm install expo-cli --global
     ```
 
+## Install Yarn    
+
+You may be used to using npm to install node dependencies.  Expo recommends using Yarn.  It just works better with Expo.
+
+1) In the terminal run `npm install -g yarn`
+
+
 ## Install Visual Studio Code
 
 You can you use any old text editor to write your code, but we recommend  you use an IDE (Integrated Development Environment) that supports JavaScript.  It will make your life a lot easier.  Because it's free and works on Mac, Linux and Windows, and is pretty darn good we will be using Visual Studio Code for this course.

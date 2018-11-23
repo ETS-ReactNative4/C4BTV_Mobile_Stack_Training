@@ -168,6 +168,12 @@ This will take several minutes as it is a large application.
 4. Login with the Apple ID that you just enabled with free developer privileges.
 
     ![Alt](assets/mac/add-account-xcode.png "Add Account to Xcode")
+    
+## Install Yarn    
+
+You may be used to using npm to install node dependencies.  Expo recommends using Yarn.  It just works better with Expo.
+
+1) In the terminal run `npm install -g yarn`
 
 ## Install Firebase Tools
 
@@ -193,7 +199,6 @@ Before you can use Expo you need to sign up for a free account. You'll need the 
     ```bash
     npm install expo-cli --global
     ```
-
 
 ## Install Visual Studio Code
 
