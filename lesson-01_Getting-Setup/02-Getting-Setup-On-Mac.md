@@ -173,7 +173,10 @@ This will take several minutes as it is a large application.
 
 You may be used to using npm to install node dependencies.  Expo recommends using Yarn.  It just works better with Expo.
 
-1) In the terminal run `npm install -g yarn`
+1) In the terminal run 
+    ```bash
+    npm install -g yarn
+    ```
 
 ## Install Firebase Tools
 

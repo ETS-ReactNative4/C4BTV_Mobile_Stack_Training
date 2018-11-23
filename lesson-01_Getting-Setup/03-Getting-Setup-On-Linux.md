@@ -182,7 +182,10 @@ Before you can use Expo you need to sign up for a free account. You'll need the 
 
 You may be used to using npm to install node dependencies.  Expo recommends using Yarn.  It just works better with Expo.
 
-1) In the terminal run `npm install -g yarn`
+1) In the terminal run 
+    ```bash
+    npm install -g yarn
+    ```
 
 
 ## Install Visual Studio Code
