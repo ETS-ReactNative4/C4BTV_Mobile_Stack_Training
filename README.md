@@ -7,7 +7,7 @@ Assets, code samples, and super-awesome instructions for Code for BTV's mobile s
 Introduction: What, Who and Why
    1. [What Are We Learning, Exactly?](lesson-00_Introduction-What-Who-And-Why/01-What-Are-We-Learning-Exactly.md)
    2. [Who Is Code for BTV?](lesson-00_Introduction-What-Who-And-Why/02-Who-Is-Code-For-BTV.md)
-   3. [What's So Awesome About Civic Hacking](lesson-00_Introduction-What-Who-And-Why/03-03-Whats-So-Awesome-About-Civic-Hacking.md)
+   3. [What's So Awesome About Civic Hacking](lesson-00_Introduction-What-Who-And-Why/03-Whats-So-Awesome-About-Civic-Hacking.md)
 
 Lesson One: Getting Setup
    1. [Windows Setup](lesson-01_Getting-Setup/01-Getting-Setup-On-Windows.md)
