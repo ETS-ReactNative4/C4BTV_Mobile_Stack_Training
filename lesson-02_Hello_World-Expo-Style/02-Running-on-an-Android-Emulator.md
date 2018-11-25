@@ -1,4 +1,3 @@
-
 # Running on an Android Emulator
 
 Now that we have an app, Lets see what it looks like on our Android Emulator.

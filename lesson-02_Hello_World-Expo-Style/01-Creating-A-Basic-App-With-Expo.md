@@ -1,7 +1,3 @@
-# Hello World Expo Style
-
-Now that you have your development environment setup, we can start building our first mobile application, "Hello World"
-
 ## Creating a Basic App With Expo
 
 Start by opening a terminal. Then create a folder where you want to keep your projects. I'm calling my project directory "my_awesome_projects"
