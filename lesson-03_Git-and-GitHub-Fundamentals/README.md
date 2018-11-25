@@ -6,12 +6,12 @@ There's a lot of Git and GitHub tutorials out there, so we'll only go over the G
 
 To use GitHub you'll need a GitHub account; go to https://github.com/ and create one.  It's free!
 
-1. [Cloning a Repository](01-Clone-a-Repository.md)
-2. [Creating a New Repository](02-Creating-a-New-Repository.md)
-3. [Branching](03-Branching.md)
-4. [Committing](04-Committing.md)
-5. [Pulling](05-Pulling.md)
-6. [Creating a Pull Request](06-Creating-a-Pull-Request.md)
-7. [Merging Pull Requests](07-Merging-Pull-Requests.md)
-8. [Resolving Conflicts](08-Resolving-Conflicts.md)
-9. [GitHub Desktop](09-GitHub-Desktop.md)
+   1. [Creating a New Repository](01-Creating-a-New-Repository.md)
+   2. [Branching](02-Branching.md)
+   3. [Committing](03-Committing.md)
+   4. [Pulling](04-Pulling.md)
+   5. [Pull Requests](05-Pull-Requests.md)
+   6. [Merging](06-Merging.md)
+   7. [Resolving Conflicts](07-Resolving-Conflicts.md)
+   8. [Cloning](08-Cloning.md)
+   9. [GitHub Desktop](09-GitHub-Desktop.md)
