@@ -1,6 +1,6 @@
 # Lesson Two: Hello World, Expo Style
 
-Getting started is super simple thanks to Expo.  Let's build your basic Hello World app, Expo style.
+Getting started is super simple thanks to Expo.  Let's build everyone's favorite app, Hello World, Expo style.
 
 1. [Creating a Basic App With Expo](01-Creating-A-Basic-App-With-Expo.md)
 2. [Running on an Android Emulator](02-Running-on-an-Android-Emulator.md) 
