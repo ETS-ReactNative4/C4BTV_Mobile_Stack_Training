@@ -9,6 +9,11 @@ By the way, Here's where you can find [all the code for Avocado App](../code-sam
    3. [React Props](03_React-Props.md)
    4. [React State](04_React-State.md)
 
-[Assets and code samples for Code for BTV's mobile stack training]()
  
-![Alt](../code-samples/avocado/assets/avocado.png "Avocado")
+Here's the app you'll build.  
+![Alt](./assets/00/app-home.PNG "Avocado App")
+
+It's pretty simple. Every time you eat an avocado you click the "I ate an avocado" button and the app will keep track of your avocado intake.
+
+Now let's get started.
+
