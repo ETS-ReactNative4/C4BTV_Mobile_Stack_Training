@@ -1,4 +1,4 @@
-## Pulling and Merging
+## Submitting Code
 
 Before you synch up your local repository with GitHub you'll want to merge changes from other developers first. It's considered common courtesy to handle potential merge conflicts on your computer.  You should fix your problems before sharing your code with the team.  
 
@@ -38,10 +38,13 @@ This will create a new branch on GitHub and push your code up.   Naturally 'my-b
 
 ![alt_text](assets/04/pull-and-merge.png "Pulling and Merging")
 
-On GitHub, add a description to your pull request and then click the 'Create Pull Request' button.   You're code has now been submitted for review.  Once it's okay'd by a reviewer, your code will be merged into the master branch.
+On GitHub, add a description to your pull request and then click the 'Create Pull Request' button.  
 
 ![alt_text](assets/04/pull-request.png "Create a Pull Request")
 
+You're code has now been submitted for review.  Once it's okay'd by a reviewer, your code will be merged into the master branch.  It's up to the repository owner to configure how many reviews are necessary before merging to master.
+
+![alt_text](assets/04/merge-pull-request.png "Merge a Pull Request")
 
 Congratulations you now know how to submit code to a project.
 
