@@ -19,8 +19,7 @@ Try `git status` again to see those changes are ready to be committed.  Finally 
 git commit -m 'Translated to French'
 ```
 
-
 the -m parameter allows you to include a commit message.  You could have left if off, but then you would have been prompted to include one.  The default text-editor is VIM which for some is hard to use so most find easier to add the message along with the commit command.
 
 
-
+![alt_text](assets/03/commit.png "Committing Changes")
