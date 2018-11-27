@@ -6,4 +6,4 @@
 
 [Assets and code samples for Code for BTV's mobile stack training]()
  
-![Alt](./avocado/assets/avocado.png "Avocado")
+![Alt](../code-samples/avocado/assets/avocado.png "Avocado")
