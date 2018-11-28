@@ -16,7 +16,7 @@ The best way to install Node on a Mac is with Node Version Manager (NVM). NVM al
     ```
     You should see the version number displayed.
 
-        ![Alt](assets/mac/nvm-version.png "nvm -version results")
+![Alt](assets/mac/nvm-version.png "nvm -version results")
 
 3. You can now list all the versions of Node available for installation :
     ```bash
