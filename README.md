@@ -29,11 +29,11 @@ Assets, code samples, and super-awesome instructions for Code for BTV's mobile s
    5. [Resolving Conflicts](lesson-03_Git-and-GitHub-Fundamentals/05-Resolving-Conflicts.md)
    6. [Cloning](lesson-03_Git-and-GitHub-Fundamentals/06-Cloning.md)
 
-#### Lesson Four: [A Basic App](lesson-04_A-Basic-App)
-   1. [View, Text and Button Components](lesson-04_A-Basic-App/01_View-Text-and-Button-Components.md)
-   2. [Styling Components](lesson-04_A-Basic-App/02_Styling-Components.md)
-   3. [React Props](lesson-04_A-Basic-App/03_React-Props.md)
-   4. [React State](lesson-04_A-Basic-App/04_React-State.md)
+#### Lesson Four: [A Simple App](lesson-04_A-Simple-App)
+   1. [View, Text and Button Components](lesson-04_A-Simple-App/01_View-Text-and-Button-Components.md)
+   2. [Styling Components](lesson-04_A-Simple-App/02_Styling-Components.md)
+   3. [React Props](lesson-04_A-Simple-App/03_React-Props.md)
+   4. [React State](lesson-04_A-Simple-App/04_React-State.md)
 
 #### Lesson Five: [Building your App](lesson-05_Building-Your-App)
    1. [Building Android](lesson-05_Building-Your-App/01_Building-Android.md)

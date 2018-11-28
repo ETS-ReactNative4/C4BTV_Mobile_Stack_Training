@@ -1,4 +1,4 @@
-# Lesson Four: A Basic App
+# Lesson Four: A Simple App
 
 Hello World is an awesome app but it doesn't do much.  I like for my mobile apps to do stuff, so let's a build an app that counts how many avocados you eat during your lifetime.  That's useful, isn't it?
 
