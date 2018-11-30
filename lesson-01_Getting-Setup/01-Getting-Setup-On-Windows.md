@@ -27,7 +27,7 @@
 
 3. Click through the installer accepting all the default settings.
 
-4. Verify that Node  is installed by opening a terminal and typing
+4. Verify that Git is installed by opening a terminal and typing
     ```cmd
     git --version
     ```
