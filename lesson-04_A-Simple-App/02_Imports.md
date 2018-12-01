@@ -19,7 +19,7 @@ Now we can use our image control.  Add the following line just above our text:
 
         <Image source={avocado}/>
 
-Your render method should now look like this:
+Our render method should now look like this:
 
     render() {
       return (

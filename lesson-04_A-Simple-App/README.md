@@ -1,10 +1,10 @@
 # Lesson Four: A Simple App
 
-Hello World is an awesome app but it doesn't do much.  I like for my mobile apps to do stuff, so let's a build an app that counts how many avocados you eat during your lifetime.  That's useful, isn't it?
+Hello World is an awesome app but it doesn't do much.  I like for my mobile apps to do stuff, so let's a build an app that counts how many avocados you eat during our lifetime.  That's useful, isn't it?
 
 By the way, Here's where you can find [all the code for Avocado App](../code-samples/avocado).
 
-   1. [View, Text and Button Components](01_Setting-Up-Your-Project.md)
+   1. [View, Text and Button Components](01_Setting-Up-Our-Project.md)
    2. [Styling Components](03_Styling-Components.md)
    3. [React Props](03_Styles.md)
    4. [React State](04_React-State.md)
@@ -13,6 +13,6 @@ By the way, Here's where you can find [all the code for Avocado App](../code-sam
 Here's the app you'll build running in the Android emulator.  
 ![Alt](./assets/00/app-home.PNG "Avocado App")
 
-It's pretty simple. Every time you eat an avocado you click the "I ate an avocado" button and the app will keep track of your avocado intake.
+It's pretty simple. Every time you eat an avocado you click the "I ate an avocado" button and the app will keep track of our avocado intake.
 
 Now let's create our app.  
