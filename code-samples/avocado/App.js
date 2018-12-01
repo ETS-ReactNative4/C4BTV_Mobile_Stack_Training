@@ -1,6 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Button, Image } from 'react-native';
 import avocado from './assets/avocado.png';
+
 export default class App extends React.Component {
 
 constructor(props){
