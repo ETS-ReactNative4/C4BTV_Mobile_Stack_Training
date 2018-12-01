@@ -1,10 +1,12 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image } from 'react-native';
+import avocado from './assets/avocado.png';
 
 export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <Image source={avocado}/>
         <Text>I have eaten</Text>
         <Text>0</Text>
         <Text>Avocados</Text>

@@ -4,9 +4,9 @@ Hello World is an awesome app but it doesn't do much.  I like for my mobile apps
 
 By the way, Here's where you can find [all the code for Avocado App](../code-samples/avocado).
 
-   1. [View, Text and Button Components](01_View-Text-and-Button-Components.md)
-   2. [Styling Components](02_Styling-Components.md)
-   3. [React Props](03_React-Props.md)
+   1. [View, Text and Button Components](01_Setting-Up-Your-Project.md)
+   2. [Styling Components](03_Styling-Components.md)
+   3. [React Props](03_Styles.md)
    4. [React State](04_React-State.md)
 
  

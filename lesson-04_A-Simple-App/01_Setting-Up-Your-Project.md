@@ -1,4 +1,4 @@
-## View, Text and Button Components
+## Setting Up Your Project
 
 This is a new app, so let's start from scratch.  
 
@@ -73,20 +73,4 @@ The render method should now look like this:
 Your app should now look like this:
 
 ![alt](assets/01/text-only.png 'text in app')
-
-
-Our app only has text. Let's add an image.  For that we'll need an image control.  Before we can use a control, we need to import it.  All the controls we need for this app are provided in the React Native library, so we'll import our control from there.
-
-Change  the import statement at the top of the file from this :
-
-```import { StyleSheet, Text, View } from 'react-native';```
-
-to this 
-
-```import { StyleSheet, Text, View, Image } from 'react-native';```
-
-Our image control is now available. Let's use it.
-
-
-
 
