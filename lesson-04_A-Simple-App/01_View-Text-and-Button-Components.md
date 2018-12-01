@@ -59,19 +59,17 @@ to this:
 
 The render method should now look like this: 
 
-  ```jsx
-  render() {
-    return (
-      <View style={styles.container}>
-        <Image source={avocado} style={styles.avocado}/>
-        <Text>I have eaten</Text>
-        <Text style={{fontSize: 60}}>{this.state.avocadoCount}</Text>
-        <Text style={{marginBottom: 20}}>Avocados</Text>
-         <Button onPress={this._eatAnAvocado} title='I ate an avocado!'/>
-      </View>
-    );
-  }
-`
+ 
+    render() {
+      return (
+          <View style={styles.container}>
+            <Text>I have eaten</Text>
+            <Text>0</Text>
+            <Text>Avocados</Text>
+          </View>
+      );
+    }
+
 Your app should now look like this:
 
 ![alt](assets/01/text-only.png 'text in app')
