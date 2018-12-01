@@ -1,4 +1,4 @@
-## Imports
+## Importing Stuff
 
 Our app only has text. Let's add an image.  For that we'll need an image control.  Before we can use a control, we need to import it.  All the controls we need for this app are provided in the React Native library, so we'll import our control from there.
 

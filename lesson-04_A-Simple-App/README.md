@@ -6,8 +6,8 @@ By the way, Here's where you can find [all the code for Avocado App](../code-sam
 
    1. [View, Text and Button Components](01_Setting-Up-Our-Project.md)
    2. [Styling Components](03_Styling-Components.md)
-   3. [React Props](03_Styles.md)
-   4. [React State](04_React-State.md)
+   3. [React Props](03_Making-It-Prety-With-Styles.md)
+   4. [React State](04_Making-Things-Do-Things-Props-And-State.md)
 
  
 Here's the app you'll build running in the Android emulator.  
