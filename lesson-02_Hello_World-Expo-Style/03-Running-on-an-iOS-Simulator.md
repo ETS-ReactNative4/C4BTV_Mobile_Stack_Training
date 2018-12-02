@@ -45,7 +45,8 @@ Change the line `<Text>Open up App.js to start working on your app!</Text>` to `
 
 After you save the file, the app should rebuild and reload automagically.  Here's what you should see.
 
-![alt_text](assets/03/hello-world-ios.png "Xcode: Final Hello World app")
+
+<img src="assets/03/hello-world-ios.png" width=400 alt="Xcode: Final Hello World app">
 
 
 Congratulations, you've just built your first React Native Mobile app using Expo and iOS Simulator.
