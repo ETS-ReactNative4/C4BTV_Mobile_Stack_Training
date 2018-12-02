@@ -4,16 +4,23 @@ import avocado from './assets/avocado.png';
 
 export default class App extends React.Component {
 
-  _eatAnAvocado() {}
+  constructor(props) {
+    super(props);
+    this.state = { avocadoCount: 0 };
+  }
+
+  eatAnAvocado = () => {
+    this.setState({ avocadoCount: this.state.avocadoCount + 1 });
+  }
 
   render() {
     return (
       <View style={styles.container}>
         <Image source={avocado} style={styles.avocado}/>
         <Text style={{ fontSize: 20 }}>I have eaten</Text>
-        <Text style={{  fontSize: 60 }}>0</Text>
-        <Text style={{ fontSize: 20, marginBottom: 50}}>Avocados</Text>
-        <Button onPress={this._eatAnAvocado} title='I ate an avocado!'/>
+        <Text style={{  fontSize: 60 }}>{this.state.avocadoCount}</Text>
+        <Text style={{ fontSize: 20 }}>Avocados</Text>
+        <Button onPress={this.eatAnAvocado} title='I ate an avocado!'/>
       </View>
     );
   }

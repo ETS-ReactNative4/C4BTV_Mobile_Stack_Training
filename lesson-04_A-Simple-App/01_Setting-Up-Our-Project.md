@@ -28,6 +28,13 @@ git remote add origin https://github.com/codeforbtv/avocado.git
 git push -u origin master
 ``` 
 
+Let's create a branch for our work:
+
+```bash
+git branch my-branch
+git checkout my-branch
+```
+
 Woot! now that our project is setup, lets create an awesome app.
 
 Start by launching the app, 

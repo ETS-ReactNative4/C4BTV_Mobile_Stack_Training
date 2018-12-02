@@ -46,19 +46,19 @@ Our app look good but, as the warning said, our button doesn't do anything when 
 
 Add the following code just before the render function:
 
-    _eatAnAvocado() {}
+    eatAnAvocado = () => {}
     
 Now pass this new method to the onPress prop of our button like this:
 
-    <Button onPress={this._eatAnAvocado} title='I ate an avocado!'/>
+    <Button onPress={this.eatAnAvocado} title='I ate an avocado!'/>
 
-Notice the `this` keyword just before the method.  In this case `this` refers to our component and the `_eatAnAvocado` part refers to our new method. 
+Notice the `this` keyword just before the method.  In this case `this` refers to our component and the `eatAnAvocado` part refers to our new method. 
 
 Here's what our component should look like:
 
     export default class App extends React.Component {
   
-      _eatAnAvocado() {}
+      eatAnAvocado() {}
     
       render() {
         return (
@@ -67,7 +67,7 @@ Here's what our component should look like:
             <Text style={{ fontSize: 20 }}>I have eaten</Text>
             <Text style={{  fontSize: 60 }}>0</Text>
             <Text style={{ fontSize: 20, marginBottom: 50}}>Avocados</Text>
-            <Button onPress={this._eatAnAvocado} title='I ate an avocado!'/>
+            <Button onPress={this.eatAnAvocado} title='I ate an avocado!'/>
           </View>
         );
       }
@@ -75,3 +75,116 @@ Here's what our component should look like:
     
     
  Woot!  we got rid of the warning.  Sadly, our app still does nothing.  To track our clicks we'll need to add some 'state' to our component.
+ Component state is how we track all the changes a component cares about during its lifetime.   When a component is first create, we'll want to create a default state.  To do that we'll need to add another method called a constructor.  A constructor is called once when the component is first create.
+ 
+ 
+ before our eatAnAvocado method, add the following code:
+ 
+    constructor(props) {
+      super(props);
+      this.state = { avocadoCount: 0 };
+    }
+    
+    
+The component should now look like this:
+
+    export default class App extends React.Component {
+    
+      constructor(props) {
+        super(props);
+        this.state = { avocadoCount: 0 };
+      }
+    
+      eatAnAvocado = () => {}
+    
+      render() {
+        return (
+          <View style={styles.container}>
+            <Image source={avocado} style={styles.avocado}/>
+            <Text style={{ fontSize: 20 }}>I have eaten</Text>
+            <Text style={{  fontSize: 60 }}>0</Text>
+            <Text style={{ fontSize: 20 }}>Avocados</Text>
+            <Button onPress={this.eatAnAvocado} title='I ate an avocado!'/>
+          </View>
+        );
+      }
+    }
+    
+    
+Notice that the first line in the constructor is `super(prop)`  We call that code because our component's class extends React's component class.  Not only do we need to setup our own class but we need to setup it's extension.
+
+The next line sets the avocadoCount to 0;
+
+Let's display our new state.  Change this line:
+
+    <Text style={{  fontSize: 60 }}>0</Text>
+   
+   
+To this:
+
+    <Text style={{  fontSize: 60 }}>{this.state.avocadoCount}</Text>
+    
+If you refresh the app you should notice that nothing's changed.  Let's change that.  Change the eatAnAvocadomethod to look like this:
+
+    eatAnAvocado() {
+      this.setState({ avocadoCount: this.state.avocadoCount + 1 });
+    }
+    
+Now when you click button, you should notice the count changes.  here's the whole file for reference:
+
+    import React from 'react';
+    import {StyleSheet, Text, View, Image, Button} from 'react-native';
+    import avocado from './assets/avocado.png';
+    
+    export default class App extends React.Component {
+    
+      constructor(props) {
+        super(props);
+        this.state = { avocadoCount: 0 };
+      }
+    
+      eatAnAvocado = () => {
+        this.setState({ avocadoCount: this.state.avocadoCount + 1 });
+      }
+    
+      render() {
+        return (
+          <View style={styles.container}>
+            <Image source={avocado} style={styles.avocado}/>
+            <Text style={{ fontSize: 20 }}>I have eaten</Text>
+            <Text style={{  fontSize: 60 }}>{this.state.avocadoCount}</Text>
+            <Text style={{ fontSize: 20 }}>Avocados</Text>
+            <Button onPress={this.eatAnAvocado} title='I ate an avocado!'/>
+          </View>
+        );
+      }
+    }
+    
+    const styles = StyleSheet.create({
+      container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        alignItems: 'center',
+        justifyContent: 'center'
+      },
+      avocado: {
+        width: 160,
+        height: 200,
+        resizeMode: 'contain',
+        marginBottom: 50
+      }
+    });
+
+And here's what your app should look like after your press the button.
+
+
+![alt](./assets/04/1-avocado.png 'Button Pressed')
+
+Now that our app is working, let's create a pull request to save our work.
+
+```bash
+git add .
+git commit -m "app is working"
+git push -u origin my-branch
+```
+   
