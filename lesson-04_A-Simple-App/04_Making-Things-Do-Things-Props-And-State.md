@@ -180,11 +180,12 @@ And here's what your app should look like after your press the button.
 
 ![alt](./assets/04/1-avocado.png 'Button Pressed')
 
-Now that our app is working, let's create a pull request to save our work.
+Now that our app is working, let's save our work.
 
-```bash
+````bash
 git add .
 git commit -m "app is working"
-git push -u origin my-branch
-```
+git push
+````
    
+ If you go to your GitHub respository, you should see a pull request waiting to be approved for a merge.
