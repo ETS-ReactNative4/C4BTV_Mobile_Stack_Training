@@ -17,7 +17,7 @@ Emulators are great, but nothing emulates your phone better than your phone.
 If you haven't done so already, go to your app store and install the Expo app. Expo runs on the iPhone and Android, and it's free.
 
 
-<img src="assets/04/app-store.jpg" width="300px" border="20px" style="border-radius: 30px; border-top-width: 30px; border-bottom-width: 70px;"/>
+<img src="assets/04/app-store.jpg" width="300" border="20" style="border-radius: 30px; border-top-width: 30px; border-bottom-width: 70px;"/>
 
 Next you should launch Expo on your phone and sign in using your Expo credentials.  Once that's done you have three options for launching your new app: SMS, Email or UPC.
   
