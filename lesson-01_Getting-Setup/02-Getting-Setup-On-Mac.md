@@ -127,14 +127,14 @@ With Expo, you can use your own phone to run and debug your app. Nonetheless hav
     
     ```
     echo $ANDROID_HOME
-	/Users/micah/Library/Android/sdk
+	/Users/myname/Library/Android/sdk
 	```
 
 6. Next configure Genymotion to use the same adb that added to your path. Click the "Settings" button to open the settings dialog select the "ADB" tab.
 
-    ![Alt](assets/mac/genymotion-adb-tab.png "Genymotion ADB")
+7. Select the "Use custom Android SDK tools" and enter the path to the Andriod sdk folder. If you installed android studio locally, the path should be `/Users/<your username>/Library/Android/sdk`. It can be confusing to browse to the sdk folder so just type the path into the field instead; Genymotion will tell you if you mistype the path.
 
-7. Select the "Use custom Android SDK tools" and enter the path to the Andriod sdk folder. If you installed android studio locally, the path should be "/Users/<your username./Library/Android/sdk''. The Library folder may be hidden you might have to type the path into the box instead of using 'Browse'
+    ![Alt](assets/mac/genymotion-adb-tab.png "Genymotion ADB")
 
 8. Now we need to add an emulator (virtual device). Download a virtual device by launching Genymotion and clicking the "Add" button.
 
