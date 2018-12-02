@@ -10,7 +10,8 @@ Expo will open the simulator and will install the Expo client if this is the fir
 
  You should now see your new app's splash screen as your app builds and downloads. When you app is ready, you should see the new default view.
 
- ![alt_text](assets/03/app-in-io-emulator.png "Xcode: App open in simulator)
+
+![alt_text](assets/03/app-in-ios-simulator.png "Xcode: App open in simulator")
 
 Now that we have a working app, let's change it to display "Hello World."  Launch Visual Studio Code and open your project folder.  Click File => Open.  Then select your project folder.   In the Explorer panel on the left, Expand "HELLO-WORLD" and then select the App.js file.
 
