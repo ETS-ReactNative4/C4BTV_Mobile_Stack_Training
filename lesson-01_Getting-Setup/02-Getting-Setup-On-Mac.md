@@ -111,15 +111,24 @@ With Expo, you can use your own phone to run and debug your app. Nonetheless hav
 
 
 4. To be able to use the emulator with Expo you'll need to have include the path to the Android Debugging Bridge (adb)  in your PATH variable. The platform-tools which were installed when you installed Android Studio, include the adb. If you haven't installed Android Studio yet, go back and do that before preceeding. Otherwise execute the following commands in a terminal.
+5. 
     ```bash
     echo 'export ANDROID_HOME=/Users/$USER/Library/Android/sdk' >> ~/.bash_profile
     echo 'export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> ~/.bash_profile
     ```
 
 5. Your PATH variable won't update until you restart your terminal app. Alternatively, you can "source" your bash file with this command:
+
     ```bash
     source ~/.bash_profile
     ```
+    
+    You can confirm that this worked by having your terminal repeat the new variables back to you:
+    
+    ```
+    echo $ANDROID_HOME
+	/Users/micah/Library/Android/sdk
+	```
 
 6. Next configure Genymotion to use the same adb that added to your path. Click the "Settings" button to open the settings dialog select the "ADB" tab.
 
