@@ -1,3 +1,13 @@
+<style type='text/css'>
+img[src$='#mobile-screenshot'] { 
+	max-width: 300px; 
+	border: solid black 20px;
+	border-top-width: 30px;
+	border-bottom-width: 70px;
+	border-radius: 20px;
+}
+</style>
+
 # Running on Your Mobile Device
 
 Emulators are great, but nothing emulates your phone better than your phone.  
@@ -7,7 +17,7 @@ Emulators are great, but nothing emulates your phone better than your phone.
 If you haven't done so already, go to your app store and install the Expo app. Expo runs on the iPhone and Android, and it's free.
 
 
- ![alt_text](assets/04/app-store.jpg  "iPhone : Expo in the App Store")
+ ![alt_text](assets/04/app-store.jpg#mobile-screenshot  "iPhone : Expo in the App Store")
 
 Next you should launch Expo on your phone and sign in using your Expo credentials.  Once that's done you have three options for launching your new app: SMS, Email or UPC.
   
@@ -15,7 +25,7 @@ To send a link to your phone via SMS or Email, press 'e' in your Expo terminal o
   
 Alternatively you can connect by scanning the UPC symbol in the terminal or dev tools window.  If you're using an Android device, using the Expo app to scan the UPC.   If you're on iPhone, use the built-in camera app to scan the UPC,  you'll be prompted to open the recieved link in Expo.
 
- ![alt_text](assets/04/launching-on-iphone.jpg  "iPhone : Scanning the UPC")
+ ![alt_text](assets/04/launching-on-iphone.jpg#mobile-screenshot  "iPhone : Scanning the UPC")
 
 
 You should now see your new app's splash screen as your app builds and downloads. When you app is ready, you should see the new default view.
@@ -52,7 +62,7 @@ Change the line `<Text>Open up App.js to start working on your app!</Text>` to `
 
 After you save the file, the app should rebuild and reload automagically.  Here's what you should see.
 
-![alt_text](assets/04/hello-world-iphone.jpg "iPhone: Final Hello World app")
+![alt_text](assets/04/hello-world-iphone.jpg#mobile-screenshot "iPhone: Final Hello World app")
 
 
 Congratulations, you've just built your first React Native Mobile app using Expo and iOS Simulator.

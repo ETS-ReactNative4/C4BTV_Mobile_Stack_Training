@@ -83,6 +83,8 @@ We won't be using Android Studio but to get the features we need to debug our ap
 
 4. The Android Studio Setup Wizard guides you through the rest of the setup, which includes downloading the Android SDK components that we need for development.
 
+  - **Note**: you can expect a permissions dialog to open during installation for the "Intel HAXM" installer.
+
 ## Install Virtual Box
 
 With Expo, you can use your own phone to run and debug your app. Nonetheless having an emulator to test different phones is extremely useful. Genymotion and Virtual Box make configuring and running Android emulators quite easy.
