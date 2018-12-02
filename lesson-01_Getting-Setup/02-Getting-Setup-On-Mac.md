@@ -71,7 +71,7 @@ The best way to install Node on a Mac is with Node Version Manager (NVM). NVM al
     ```
 
 ## Install Android Studio
-We won't be using Android Studio but installing it gives us features we need to debug our app.
+We won't be using Android Studio but to get the features we need to debug our app, you still need to install it and run the app once.
 
 1. Go to this page: https://developer.android.com/studio  and click the link to "Download Android Studio,"  accept the terms and conditions, and download the installer.
 
@@ -79,9 +79,9 @@ We won't be using Android Studio but installing it gives us features we need to 
 
 2. Accept the Terms then launch the installer.
 
-3. Select whether you want to import previous Android Studio settings or not, then click "OK".
+3. If Android Studio was not run automatically, open the application from your Applications folder.
 
-4. The Android Studio Setup Wizard guides you through the rest of the setup, which includes downloading Android SDK components that are required for development.
+4. The Android Studio Setup Wizard guides you through the rest of the setup, which includes downloading the Android SDK components that we need for development.
 
 ## Install Virtual Box
 
