@@ -5,10 +5,7 @@ So far our app is pretty static, and boring.  Let's make it do stuff. Let's add 
 First we'll need to import the Button component from React Native.  Add 'Button' to our list of React Native imports. Our import statement should now look like this:
 
     import {StyleSheet, Text, View, Image, Button} from 'react-native';
-
-
-We don't want our button 
-
+s
 Now we can add a button to our app.  We'll need to create some space between the last line of text and the button, so add a bottom margin to the last line of text like this:
 
     <Text style={{ fontSize: 20, marginBottom: 50}}>Avocados</Text>
