@@ -150,7 +150,7 @@ Now when you click button, you should notice the count changes.  here's the whol
             <Image source={avocado} style={styles.avocado}/>
             <Text style={{ fontSize: 20 }}>I have eaten</Text>
             <Text style={{  fontSize: 60 }}>{this.state.avocadoCount}</Text>
-            <Text style={{ fontSize: 20 }}>Avocados</Text>
+            <Text style={{ fontSize: 20, marginBottom: 50 }}>Avocados</Text>
             <Button onPress={this.eatAnAvocado} title='I ate an avocado!'/>
           </View>
         );
