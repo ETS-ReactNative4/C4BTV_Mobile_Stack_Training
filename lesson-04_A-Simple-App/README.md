@@ -15,4 +15,5 @@ Here's the app you'll build running in the Android emulator.
 
 It's pretty simple. Every time you eat an avocado you click the "I ate an avocado" button and the app will keep track of our avocado intake.
 
-Now let's create our app.  
+Now let's create our app.
+

@@ -1,23 +1,16 @@
 import React from 'react';
-import {StyleSheet, Text, View, Button, Image} from 'react-native';
+import {StyleSheet, Text, View, Image, Button} from 'react-native';
 import avocado from './assets/avocado.png';
 
 export default class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this._eatAnAvocado = this
-      ._eatAnAvocado
-      .bind(this);
-    this.state = {
-      avocadoCount: 0
-    };
+    this.state = { avocadoCount: 0 };
   }
 
-  _eatAnAvocado() {
-    this.setState({
-      avocadoCount: this.state.avocadoCount + 1
-    });
+  eatAnAvocado = () => {
+    this.setState({ avocadoCount: this.state.avocadoCount + 1 });
   }
 
   render() {
@@ -26,8 +19,8 @@ export default class App extends React.Component {
         <Image source={avocado} style={styles.avocado}/>
         <Text style={{ fontSize: 20 }}>I have eaten</Text>
         <Text style={{  fontSize: 60 }}>{this.state.avocadoCount}</Text>
-        <Text style={{ fontSize: 20 }}>Avocados</Text>
-        <Button onPress={this._eatAnAvocado} title='I ate an avocado!'/>
+        <Text style={{ fontSize: 20, marginBottom: 50 }}>Avocados</Text>
+        <Button onPress={this.eatAnAvocado} title='I ate an avocado!'/>
       </View>
     );
   }

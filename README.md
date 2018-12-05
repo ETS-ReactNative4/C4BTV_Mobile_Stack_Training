@@ -44,11 +44,11 @@ Assets, code samples, and super-awesome instructions for Code for BTV's mobile s
    2. [Setting Breakpoints](lesson-06-Debugging/02_Setting-Breakpoints.md)
    3. [Debugging on Emulators](lesson-06-Debugging/03_Debugging-On-Emulators.md)
 
-#### Lesson Seven: [Flex Box Layouts](lesson-10_Flex-Box-Layouts)
-   1. [What's Flex?](lesson-10_Flex-Box-Layouts/01_Whats-Flex.md)
-   2. [Flex Direction](lesson-10_Flex-Box-Layouts/02_Flex-Direction.md)
-   3. [Justify Content](lesson-10_Flex-Box-Layouts/03_Justify-Content.md)
-   4. [Align Items](lesson-10_Flex-Box-Layouts/04_Align-Items.md)
+#### Lesson Seven: [Flex Box Layouts](lesson-09_Flex-Box-Layouts)
+   1. [What's Flex?](lesson-09_Flex-Box-Layouts/01_Whats-Flex.md)
+   2. [Flex Direction](lesson-09_Flex-Box-Layouts/02_Flex-Direction.md)
+   3. [Justify Content](lesson-09_Flex-Box-Layouts/03_Justify-Content.md)
+   4. [Align Items](lesson-09_Flex-Box-Layouts/04_Align-Items.md)
 
 #### Lesson Eight: [Touchables](lesson-08_Touchables)
    1. [Buttons](lesson-08_Touchables/01_Buttons.md)
