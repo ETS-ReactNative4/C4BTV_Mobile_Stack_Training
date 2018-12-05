@@ -44,40 +44,41 @@ Assets, code samples, and super-awesome instructions for Code for BTV's mobile s
    2. [Setting Breakpoints](lesson-06-Debugging/02_Setting-Breakpoints.md)
    3. [Debugging on Emulators](lesson-06-Debugging/03_Debugging-On-Emulators.md)
 
-#### Lesson Seven: [Flex Box Layouts](lesson-10_Flex-Box-Layouts)
-   1. [What's Flex?](lesson-10_Flex-Box-Layouts/01_Whats-Flex.md)
-   2. [Flex Direction](lesson-10_Flex-Box-Layouts/02_Flex-Direction.md)
-   3. [Justify Content](lesson-10_Flex-Box-Layouts/03_Justify-Content.md)
-   4. [Align Items](lesson-10_Flex-Box-Layouts/04_Align-Items.md)
-
-#### Lesson Eight: [Touchables](lesson-08_Touchables)
-   1. [Buttons](lesson-08_Touchables/01_Buttons.md)
-   2. [Touchable Highlights](lesson-08_Touchables/02_Touchable-Highlights.md)
-   3. [Touchable Opacities](lesson-08_Touchables/03-Touchable-Opacities.md)
-
-#### Lesson Nine: [Text Boxes](lesson-09_Text-Boxes)
-   1. [Handled vs Unhandled Controls](lesson-09_Text-Boxes/01_Handled-vs-Unhandled-Controls.md)
-   2. [Setting a Value](lesson-09_Text-Boxes/02_Setting-A-Value.md)
-   3. [Handling Changes](lesson-09_Text-Boxes/03_Handling-Changes.md)
-
-#### Lesson Ten: [More Views:](lesson-12_More-Views)
-   1. [List Views](lesson-12_More-Views/01_List-Views.md)
-   2. [Scroll Views](lesson-12_More-Views/02_Scroll-Views.md)
-   3. [Keyboard Avoiding Views](lesson-12_More-Views/03_Keyboard-Avoiding-Views.md)
-
-#### Lesson Eleven: [Firebase](lesson-07_Firebase)
+#### Lesson Seven: [Firebase](lesson-07_Firebase)
    1. [What Is Firebase?](lesson-07_Firebase/01_What-Is-Firebase.md)
    2. [Getting Started with Firebase](lesson-07_Firebase/02_Getting-Started-with-Firebase.md)
    3. [Authentication](lesson-07_Firebase/03_Authentication.md)
    4. [Creating a Database](lesson-07_Firebase/04_Creating_a_Database.md)
    5. [Intro to Security Rules](lesson-07_Firebase/05_Intro_to_Security_Rules.md)
 
-#### Lesson Twelve: [The Firebase Web SDK](lesson-12_The-Firebase-Web-SDK)
+#### Lesson Eight: [The Firebase Web SDK](lesson-12_The-Firebase-Web-SDK)
    1. [Configuring the SDK](lesson-12_The-Firebase-Web-SDK/01_Configuring-the-SDK.md)
    2. [Adding Data](lesson-12_The-Firebase-Web-SDK/02_Adding-Data.md)
    3. [Fetching Data](lesson-12_The-Firebase-Web-SDK/03_Fetching-Data.md)
    4. [Updating Data](lesson-12_The-Firebase-Web-SDK/04_Updating-Data.md)
    5. [Listening for New Data](lesson-12_The-Firebase-Web-SDK/05_Listening-For-New-Data.md)
+
+
+#### Lesson Nine: [Flex Box Layouts](lesson-10_Flex-Box-Layouts)
+   1. [What's Flex?](lesson-10_Flex-Box-Layouts/01_Whats-Flex.md)
+   2. [Flex Direction](lesson-10_Flex-Box-Layouts/02_Flex-Direction.md)
+   3. [Justify Content](lesson-10_Flex-Box-Layouts/03_Justify-Content.md)
+   4. [Align Items](lesson-10_Flex-Box-Layouts/04_Align-Items.md)
+
+#### Lesson Ten: [Touchables](lesson-08_Touchables)
+   1. [Buttons](lesson-08_Touchables/01_Buttons.md)
+   2. [Touchable Highlights](lesson-08_Touchables/02_Touchable-Highlights.md)
+   3. [Touchable Opacities](lesson-08_Touchables/03-Touchable-Opacities.md)
+
+#### Lesson Eleven: [Text Boxes](lesson-09_Text-Boxes)
+   1. [Handled vs Unhandled Controls](lesson-09_Text-Boxes/01_Handled-vs-Unhandled-Controls.md)
+   2. [Setting a Value](lesson-09_Text-Boxes/02_Setting-A-Value.md)
+   3. [Handling Changes](lesson-09_Text-Boxes/03_Handling-Changes.md)
+
+#### Lesson Twelve: [More Views:](lesson-12_More-Views)
+   1. [List Views](lesson-12_More-Views/01_List-Views.md)
+   2. [Scroll Views](lesson-12_More-Views/02_Scroll-Views.md)
+   3. [Keyboard Avoiding Views](lesson-12_More-Views/03_Keyboard-Avoiding-Views.md)
 
 #### Lesson Thirteen: [Navigation:](lesson-13_Navigation)
    1. [React Navigation Library](lesson-13_Navigation/01_React_Navigation_Library.md)
