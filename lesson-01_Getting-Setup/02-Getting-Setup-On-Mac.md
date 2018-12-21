@@ -87,7 +87,7 @@ We don't need Python to develop our apps, but it is required to publish our apps
     ```
 
 ## Install Android Studio
-We won't be using Android Studio but installing it gives us features we need to debug our app.
+We won't be using Android Studio but to get the features we need to debug our app, you still need to install it and run the app once.
 
 1. Go to this page: https://developer.android.com/studio  and click the link to "Download Android Studio,"  accept the terms and conditions, and download the installer.
 
@@ -95,9 +95,11 @@ We won't be using Android Studio but installing it gives us features we need to 
 
 2. Accept the Terms then launch the installer.
 
-3. Select whether you want to import previous Android Studio settings or not, then click "OK".
+3. If Android Studio was not run automatically, open the application from your Applications folder.
 
-4. The Android Studio Setup Wizard guides you through the rest of the setup, which includes downloading Android SDK components that are required for development.
+4. The Android Studio Setup Wizard guides you through the rest of the setup, which includes downloading the Android SDK components that we need for development.
+
+  - **Note**: you can expect a permissions dialog to open during installation for the "Intel HAXM" installer.
 
 ## Install Virtual Box
 
@@ -125,21 +127,30 @@ With Expo, you can use your own phone to run and debug your app. Nonetheless hav
 
 
 4. To be able to use the emulator with Expo you'll need to have include the path to the Android Debugging Bridge (adb)  in your PATH variable. The platform-tools which were installed when you installed Android Studio, include the adb. If you haven't installed Android Studio yet, go back and do that before preceeding. Otherwise execute the following commands in a terminal.
+5. 
     ```bash
     echo 'export ANDROID_HOME=/Users/$USER/Library/Android/sdk' >> ~/.bash_profile
     echo 'export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools' >> ~/.bash_profile
     ```
 
 5. Your PATH variable won't update until you restart your terminal app. Alternatively, you can "source" your bash file with this command:
+
     ```bash
     source ~/.bash_profile
     ```
+    
+    You can confirm that this worked by having your terminal repeat the new variables back to you:
+    
+    ```
+    echo $ANDROID_HOME
+	/Users/myname/Library/Android/sdk
+	```
 
 6. Next configure Genymotion to use the same adb that added to your path. Click the "Settings" button to open the settings dialog select the "ADB" tab.
 
-    ![Alt](assets/mac/genymotion-adb-tab.png "Genymotion ADB")
+7. Select the "Use custom Android SDK tools" and enter the path to the Andriod sdk folder. If you installed android studio locally, the path should be `/Users/<your username>/Library/Android/sdk`. It can be confusing to browse to the sdk folder so just type the path into the field instead; Genymotion will tell you if you mistype the path.
 
-7. Select the "Use custom Android SDK tools" and enter the path to the Andriod sdk folder. If you installed android studio locally, the path should be "/Users/<your username./Library/Android/sdk''. The Library folder may be hidden you might have to type the path into the box instead of using 'Browse'
+    ![Alt](assets/mac/genymotion-adb-tab.png "Genymotion ADB")
 
 8. Now we need to add an emulator (virtual device). Download a virtual device by launching Genymotion and clicking the "Add" button.
 

@@ -10,13 +10,24 @@ Expo will open the simulator and will install the Expo client if this is the fir
 
  You should now see your new app's splash screen as your app builds and downloads. When you app is ready, you should see the new default view.
 
- ![alt_text](assets/03/app-in-io-emulator.png "Xcode: App open in simulator)
+<img src="assets/03/app-in-ios-simulator.png" width=400 alt="Xcode: App open in simulator"/>
 
-Now that we have a working app, let's change it to display "Hello World."  Launch Visual Studio Code and open your project folder.  Click File => Open.  Then select your project folder.   In the Explorer panel on the left, Expand "HELLO-WORLD" and then select the App.js file.
+
+## Editing Your "Hello World" App
+
+Now that we have a working app, let's change it to display "Hello World."  Launch Visual Studio Code and open your project folder.  Click `File => Open`.  Then select your project folder.   In the Explorer panel on the left, Expand "HELLO-WORLD" and then select the App.js file.
 
 ![alt_text](assets/02/Capture-11.PNG "Visual Studio Code: App.js changes")
 
-Change the line `<Text>Open up App.js to start working on your app!</Text>` to `<Text>Hello WOrld</Text>` Your App.js file should now look like this:
+Change the line 
+
+`<Text>Open up App.js to start working on your app!</Text>` 
+
+to 
+
+`<Text>Hello WOrld</Text>` 
+
+Your App.js file should now look like this:
 
 ```
     import React from 'react';
@@ -44,7 +55,8 @@ Change the line `<Text>Open up App.js to start working on your app!</Text>` to `
 
 After you save the file, the app should rebuild and reload automagically.  Here's what you should see.
 
-![alt_text](assets/03/hello-world-ios.png "Xcode: Final Hello World app")
+
+<img src="assets/03/hello-world-ios.png" width=400 alt="Xcode: Final Hello World app">
 
 
 Congratulations, you've just built your first React Native Mobile app using Expo and iOS Simulator.

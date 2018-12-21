@@ -6,21 +6,31 @@ Open Genymotion and start a virtual device.  After your virtual device finishes 
 
 The first time you launch your app in an emulator Expo will install the Expo client.  When this is finished you will be prompted to 'Allow display over other apps.'  Set the toggle to 'on' then return to your app by clicking the back button ![alt_text](assets/02/back-button.png "Genymotion : back button").
 
- ![alt_text](assets/02/Capture8.PNG "Genymotion : Allow display over other apps toggle")
+ <img src="assets/02/Capture8.PNG" width=400 alt="Genymotion : Allow display over other apps toggle"/>
 
  You should now see your new app's splash screen as your app builds and downloads.
 
- ![alt_text](assets/02/Capture9.PNG "Genymotion: splash screen")
+ <img src="assets/02/Capture9.PNG" width=400 alt="Genymotion: splash screen"/>
 
 When you app is ready, you should see the new default view.
 
- ![alt_text](assets/02/Capture-10.PNG "Genymotion: Default App Screen")
+ <img src="assets/02/Capture-10.PNG" width=400 alt="Genymotion: Default App Screen"/>
 
-Now that we have a working app, let's change it to display "Hello World."  Launch Visual Studio Code and open your project folder.  Click File => Open Folder.  Then select your project folder.   In the Explorer panel on the left, Expand "HELLO-WORLD" and then select the App.js file.
+## Editing Your "Hello World" App
+
+Now that we have a working app, let's change it to display "Hello World."  Launch Visual Studio Code and open your project folder.  Click `File => Open` Folder.  Then select your project folder.   In the Explorer panel on the left, Expand "HELLO-WORLD" and then select the App.js file.
 
 ![alt_text](assets/02/Capture-11.PNG "Visual Studio Code: App.js changes")
 
-Change the line `<Text>Open up App.js to start working on your app!</Text>` to `<Text>Hello WOrld</Text>` Your App.js file should now look like this:
+Change the line 
+
+`<Text>Open up App.js to start working on your app!</Text>` 
+
+to 
+
+`<Text>Hello WOrld</Text>` 
+
+Your App.js file should now look like this:
 
 ```
     import React from 'react';
@@ -48,7 +58,7 @@ Change the line `<Text>Open up App.js to start working on your app!</Text>` to `
 
 After you save the file, the app should rebuild and reload automagically.  Here's what you should see.
 
-![alt_text](assets/02/Capture-12.PNG "Genymotion: Final Hello World app")
+<img src="assets/02/Capture-12.PNG" width=400 alt="Genymotion: Final Hello World app"/>
 
 
 Congratulations, you've just built your first React Native Mobile app using Expo.

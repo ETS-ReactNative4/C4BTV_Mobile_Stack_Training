@@ -34,7 +34,7 @@ The best way to install Node is with Node Version Manger (NVM). NVM allows you e
     ```bash
     source ~/.profile
     ```
-
+git 
 3. You can now list all the versions of Node available for installation:
     ```bash
     nvm ls-remote
