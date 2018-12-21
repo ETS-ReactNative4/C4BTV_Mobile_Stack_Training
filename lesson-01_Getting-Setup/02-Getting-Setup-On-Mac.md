@@ -1,6 +1,20 @@
 # Getting Setup on Mac
 
-## Install Node with NVM
+## Install the Expo App on Your Phone
+One reason Expo is such a great development environment is that it makes it easy to run and debug your mobile right on your phone. The Expo phone app makes that super easy.  The app requires a free Expo account.  Head over to the Expo web-site and  sign up for a free account.
+
+1. Go to http://expo.io and click the "Create an account" button.
+
+    ![Alt](assets/mac/expo-website.png "Expo Website")
+
+2. Install the Expo Client app on your phone. Search for it in your app store and install it.  It's free!
+
+   ![Alt](assets/mac/app-store.jpg "Expo App in App Store")
+
+3. Launch the app and sign in using your Expo credentials. Your app in now linked to your account.
+
+
+## Install Node with NVM on Your Computer
 The best way to install Node on a Mac is with Node Version Manager (NVM). NVM allows you to install multiple versions of Node making it easy to upgrade Node and switch versions when you have to.
 
 1. Open a terminal and execute these two commands
@@ -16,7 +30,7 @@ The best way to install Node on a Mac is with Node Version Manager (NVM). NVM al
     ```
     You should see the version number displayed.
 
-        ![Alt](assets/mac/nvm-version.png "nvm -version results")
+![Alt](assets/mac/nvm-version.png "nvm -version results")
 
 3. You can now list all the versions of Node available for installation :
     ```bash
@@ -48,6 +62,8 @@ The best way to install Node on a Mac is with Node Version Manager (NVM). NVM al
     ```
 
 ## Install Python 2.7.15
+
+We don't need Python to develop our apps, but it is required to publish our apps to the app store.
 
 1. You probably already have Python 2.7 installed. To verify this, open a terminal, type the following and press enter.
     ```bash
@@ -199,20 +215,13 @@ Before you can use the Firebase tools you'll need a free account.
     ```bash
     npm install -g firebase-tools
     ```
-## Install Expo
-
-Before you can use Expo you need to sign up for a free account. You'll need the account to publish your app to the Expo repository.
-
-1. Go to http://expo.io and click the "Create an account" button.
-
-    ![Alt](assets/mac/expo-website.png "Expo Website")
-
-2. While you should have an Android emulator, there's no substitute for debugging on a real phone. To do this you'll need to install the Expo Client app on your iOS or Android phone. Search for it in your app store and install it.
-
-3. Now that you have an account and your phone is all set, install the expo development tools on your computer.
+    
+## Install Expo Development Tools
+ 
+1. Install the expo development tools on your computer.
     ```bash
     npm install expo-cli --global
-    ```
+    ``````
 
 ## Install Visual Studio Code
 
