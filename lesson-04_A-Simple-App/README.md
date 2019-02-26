@@ -11,7 +11,7 @@ By the way, Here's where you can find [all the code for Avocado App](../code-sam
 
  
 Here's the app you'll build running in the Android emulator.  
-![Alt](../assets/00/app-home.PNG "Avocado App")
+![Alt]("./assets/00/app-home.png" "Avocado App")
 
 It's pretty simple. Every time you eat an avocado you click the "I ate an avocado" button and the app will keep track of our avocado intake.
 
