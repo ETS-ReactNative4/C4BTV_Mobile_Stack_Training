@@ -40,7 +40,7 @@ Assets, code samples, and super-awesome instructions for Code for BTV's mobile s
    2. [Building iOS](lesson-05_Building-Your-App/02_Building-iOS.md)
 
 #### Lesson Six: [Debugging](lesson-06_Debugging)
-   1. [Debugging on Your Phone](lesson-06-Debugging/01_Debugging-On-Your-Phone.md)
+   1. [Debugging on Your Phone](lesson-06_Debugging/01_Debugging-On-Your-Phone.md)
    2. [Setting Breakpoints](lesson-06-Debugging/02_Setting-Breakpoints.md)
    3. [Debugging on Emulators](lesson-06-Debugging/03_Debugging-On-Emulators.md) 
 
