@@ -42,7 +42,7 @@ Assets, code samples, and super-awesome instructions for Code for BTV's mobile s
 #### Lesson Six: [Debugging](lesson-06_Debugging)
    1. [Debugging on Your Phone](lesson-06-Debugging/01_Debugging-On-Your-Phone.md)
    2. [Setting Breakpoints](lesson-06-Debugging/02_Setting-Breakpoints.md)
-   3. [Debugging on Emulators](lesson-06-Debugging/03_Debugging-On-Emulators.md)
+   3. [Debugging on Emulators](lesson-06-Debugging/03_Debugging-On-Emulators.md) 
 
 #### Lesson Seven: [Firebase](lesson-07_Firebase)
    1. [What Is Firebase?](lesson-07_Firebase/01_What-Is-Firebase.md)
