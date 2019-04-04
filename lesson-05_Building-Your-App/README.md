@@ -29,13 +29,13 @@ Now you need to install a Linux Distro.  You can do this three different ways:
 ![Alt](assets/windows-store.PNG "Microsoft Store")
     
     
-### Install Linux via PowerShell
+### Or Install Linux via PowerShell
 
 1) Open PowerShell
 2) Run `Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing`
 
 
-### Install Linux via PowerShell
+### Or Install Linux via PowerShell
 
 1) Click [here](https://aka.ms/wsl-ubuntu-1804) to download the Ubuntu app.
 2) Double-click the download.
