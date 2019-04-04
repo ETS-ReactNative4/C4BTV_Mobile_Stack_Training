@@ -35,7 +35,7 @@ Now you need to install a Linux Distro.  You can do this three different ways:
 2) Run `Invoke-WebRequest -Uri https://aka.ms/wsl-ubuntu-1604 -OutFile Ubuntu.appx -UseBasicParsing`
 
 
-### Or Install Linux via PowerShell
+### Or Install Linux manually
 
 1) Click [here](https://aka.ms/wsl-ubuntu-1804) to download the Ubuntu app.
 2) Double-click the download.
