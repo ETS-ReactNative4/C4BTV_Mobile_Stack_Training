@@ -26,7 +26,7 @@ Now you need to install a Linux Distro.  You can do this three different ways:
 1) CLIck the 'Windows' button in the task-bar and type 'store.'
 2) Open the Microsoft Store and search for 'Linux.'
 3) Select a distro. (We recommend Ubuntu)
-![Alt](assets/microsfot-store.PNG "Microsoft Store")
+![Alt](assets/microsoft-store.PNG "Microsoft Store")
     
     
 ### Install Linux via PowerShell
