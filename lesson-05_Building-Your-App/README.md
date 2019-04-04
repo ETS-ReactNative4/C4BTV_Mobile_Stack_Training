@@ -6,7 +6,9 @@ Running your app in the Expo client is cool, but we want to run our apps nativel
 
 Before you build, you will need to create a **free Expo account**.  If you haven't already, do that [here](https://expo.io/signup).   If you try to build without an account, you'll be asked to create one.
 
-Running Windows? You must enable WSL (Windows Subsystem for Linux). To do this, open a powershell terminal as an Administrator :
+
+## Running Windows?
+Windows users must enable WSL (Windows Subsystem for Linux). To do this, open a powershell terminal as an Administrator :
 
 1) Click the Windows button in your taskbar.
 2) Type `powershell`
@@ -16,5 +18,15 @@ Running Windows? You must enable WSL (Windows Subsystem for Linux). To do this, 
 In the PowerShell window, run this command `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 
 You will be promted to reboot your computer.
+
+Now you need to install a Linux Distro.  You can do this three different ways:
+
+### Install via the Microsoft Store
+
+1) CLIck the 'Windows' button in the taskbar and type 'store'
+2) Open the Microsoft Store and search for 'Linux'
+3) Select a distro (We reccomend Ubuntu)
+
+
   
 
