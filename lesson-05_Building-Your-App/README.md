@@ -41,3 +41,9 @@ Now you need to install a Linux Distro.  You can do this three different ways:
 2) Double-click the download.
 3) You will be prompted to install Ubuntu 18.04
  ![Alt](assets/install-ubuntu.PNG "Install Ubuntu")
+ 
+ 
+ ## Config app.json
+ 
+ app.json is where you keep all your app's important settings.  Before we can build we need to add some 
+ 
