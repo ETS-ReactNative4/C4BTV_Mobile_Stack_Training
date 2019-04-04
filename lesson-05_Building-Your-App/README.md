@@ -26,7 +26,7 @@ Now you need to install a Linux Distro.  You can do this three different ways:
 1) CLIck the 'Windows' button in the task-bar and type 'store.'
 2) Open the Microsoft Store and search for 'Linux.'
 3) Select a distro. (We recommend Ubuntu)
-![Alt](assets/microsfot-store.png "Microsoft Store")
+![Alt](assets/microsfot-store.PNG "Microsoft Store")
     
     
 ### Install Linux via PowerShell
@@ -40,4 +40,4 @@ Now you need to install a Linux Distro.  You can do this three different ways:
 1) Click [here](https://aka.ms/wsl-ubuntu-1804) to download the Ubuntu app.
 2) Double-click the download.
 3) You will be prompted to install Ubuntu 18.04
- ![Alt](assets/install-ubuntu.png "Install Ubuntu")
+ ![Alt](assets/install-ubuntu.PNG "Install Ubuntu")
