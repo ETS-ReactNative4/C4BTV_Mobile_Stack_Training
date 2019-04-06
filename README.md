@@ -46,7 +46,7 @@ Assets, code samples, and super-awesome instructions for Code for BTV's mobile s
 
 #### Lesson Seven: [Firebase](lesson-07_Firebase)
    1. [What Is Firebase?](lesson-07_Firebase/01_What-Is-Firebase.md)
-   2. [Getting Started with Firebase](lesson-07_Firebase/02_Getting-Started-with-Firebase.md)
+   2. [Getting Started with Firebase](lesson-07_Firebase/01_Getting-Started-with-Firebase.md)
    3. [Authentication](lesson-07_Firebase/03_Authentication.md)
    4. [Creating a Database](lesson-07_Firebase/04_Creating_a_Database.md)
    5. [Intro to Security Rules](lesson-07_Firebase/05_Intro_to_Security_Rules.md)
