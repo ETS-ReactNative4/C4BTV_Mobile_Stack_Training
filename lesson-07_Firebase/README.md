@@ -1,8 +1,6 @@
 # Lesson Eleven: Firebase  
 1. [Getting Started with Firebase](01_Getting-Started-with-Firebase.md)
-2. [Authentication](03_Authentication.md)
-3. [Creating a Database](04_Creating_a_Database.md)
-4. [Intro to Security Rules](05_Intro_to_Security_Rules.md)
+2. [Configuring User Authentication](02_Configuring-User-Authentication.md)
 
 You've already built an awesome app, but you know what would make it even awesomer?  Data!
 
