@@ -4,7 +4,7 @@
 
 You've already built an awesome app, but you know what would make it even awesomer?  Data!
 
-What is Firebase? Simply stated, it's a database you access over the web.  It's a Google service, hosted on their cloud, and provided, to you, free of charge.   
+What is Firebase? Simply stated, it's a database service run by Google.  They manage all the servers, do all updates, and provide access, to you, free of charge.   
 
 Okay, that last thing is not entirely true.  There are three different payment options, the first option, Spark, is free but but you're limited as to how much data you can store and serve.  We like Spark because it lets us avoid paying anything while we're developing our app.  If you're afraid of your app being cut off due to data caps, don't worry.   Google makes it easy to switch to another (paid) data option.  We recommend doing this before publishing your app to the Stores.
 
