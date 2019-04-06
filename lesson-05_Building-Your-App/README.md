@@ -1,6 +1,6 @@
 ﻿# Lesson Five: Building your App (10 min)
-1. [Extra Steps For Windows Users](01_Extra_Steps_For_Windows_Users)
-2. [Configuring Your App for Building](02_Configuring_Your_App_For_Building)
+1. [Extra Steps For Windows Users](01_Extra_Steps_For_Windows_Users.md)
+2. [Configuring Your App for Building](02_Configuring_Your_App_For_Building.md)
 3. [Building iOS](03_Building-iOS.md)
 4. [Building Android](04_Building-Android.md)
 
