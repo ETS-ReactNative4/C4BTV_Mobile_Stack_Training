@@ -1,6 +1,11 @@
 # Lesson Eleven: Firebase  
 1. [Getting Started with Firebase](01_Getting-Started-with-Firebase.md)
-2. [Configuring User Authentication](02_Configuring-User-Authentication.md)
+2. [Configuring the SDK](02_Configuring-the-SDK.md)
+3. [Getting Started with Firebase](03_Setting-Data.md)
+4. [Listening for Changes](04_Listening-for-Changes.md)
+5. [Fetching Data](05_Fetching-Data.md)
+6. [Adding Data](06_Adding-Data.md)
+7. [Deleting Data](07_Deleting-Data.md)
 
 You've already built an awesome app, but you know what would make it even awesomer?  Data!
 
